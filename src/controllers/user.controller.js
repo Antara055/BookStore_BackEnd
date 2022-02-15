@@ -15,6 +15,24 @@ export const registration = async(req,res,next) =>{
   }
 };
 
+//login
+export const login = async (req, res, next) => {
+  try {
+    const data = await UserService.loggedin(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: "Successfully logged in"
+    });
+  } catch (error) {
+    res.status(HttpStatus.UNAUTHORIZED).json({
+      code: HttpStatus.UNAUTHORIZED,
+      message: "Login failed"
+    })
+    next(error);
+  }
+};
+
 
 /**
  * Controller to get all users available

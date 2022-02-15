@@ -1,0 +1,130 @@
+info: ::1 - - [14/Feb/2022:18:04:15 +0000] "POST /api/v1/users/registrationUser HTTP/1.1" 201 280 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [14/Feb/2022:18:39:13 +0000] "POST /api/v1/users/login HTTP/1.1" 401 37 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [14/Feb/2022:18:41:56 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:18:41:57 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+
+info: ::1 - - [14/Feb/2022:18:43:34 +0000] "POST /api/v1/users/registrationUser HTTP/1.1" 201 331 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [14/Feb/2022:18:43:48 +0000] "POST /api/v1/users/login HTTP/1.1" 200 381 "-" "PostmanRuntime/7.29.0"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2022:03:21:10 +0000] "POST /api/v1/users/registrationUser HTTP/1.1" 201 333 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2022:03:21:54 +0000] "POST /api/v1/users/registrationAdmin HTTP/1.1" 500 61 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2022:03:22:07 +0000] "POST /api/v1/users/registrationAdmin HTTP/1.1" 201 335 "-" "Thunder Client (https://www.thunderclient.com)"
+
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (E:\CFP_BZ\book_store\node_modules\express\lib\router\index.js:464:13)
+    at routes (E:\CFP_BZ\book_store\src\routes\/index.js:16:10)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\/index.js:32:32)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Tue Feb 15 2022 10:55:40 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":37975},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18400617,"external":20624143,"heapTotal":80285696,"heapUsed":49020976,"rss":108867584},"pid":5572,"uid":null,"version":"v14.17.3"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (E:\\CFP_BZ\\book_store\\node_modules\\express\\lib\\router\\index.js:464:13)\n    at routes (E:\\CFP_BZ\\book_store\\src\\routes\\/index.js:16:10)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\/index.js:32:32)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","trace":[{"column":13,"file":"E:\\CFP_BZ\\book_store\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":464,"method":"use","native":false},{"column":10,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":32,"file":"E:\\CFP_BZ\\book_store\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (E:\CFP_BZ\book_store\node_modules\express\lib\router\index.js:464:13)
+    at routes (E:\CFP_BZ\book_store\src\routes\/index.js:16:10)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\/index.js:32:32)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Tue Feb 15 2022 11:20:51 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":39486},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18400617,"external":20624143,"heapTotal":81072128,"heapUsed":51497672,"rss":109137920},"pid":6936,"uid":null,"version":"v14.17.3"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (E:\\CFP_BZ\\book_store\\node_modules\\express\\lib\\router\\index.js:464:13)\n    at routes (E:\\CFP_BZ\\book_store\\src\\routes\\/index.js:16:10)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\/index.js:32:32)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","trace":[{"column":13,"file":"E:\\CFP_BZ\\book_store\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":464,"method":"use","native":false},{"column":10,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":32,"file":"E:\\CFP_BZ\\book_store\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (E:\CFP_BZ\book_store\node_modules\express\lib\router\route.js:202:15)
+    at Function.get (E:\CFP_BZ\book_store\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\routes\/book.route.js:12:8)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Tue Feb 15 2022 12:42:47 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":44401},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18299724,"external":20523250,"heapTotal":80838656,"heapUsed":46471000,"rss":108716032},"pid":4764,"uid":null,"version":"v14.17.3"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (E:\\CFP_BZ\\book_store\\node_modules\\express\\lib\\router\\route.js:202:15)\n    at Function.get (E:\\CFP_BZ\\book_store\\node_modules\\express\\lib\\router\\index.js:516:19)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js:12:8)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","trace":[{"column":15,"file":"E:\\CFP_BZ\\book_store\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":202,"method":"<computed> [as get]","native":false},{"column":19,"file":"E:\\CFP_BZ\\book_store\\node_modules\\express\\lib\\router\\index.js","function":"Function.get","line":516,"method":"get","native":false},{"column":8,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js","function":null,"line":12,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+info: ::ffff:127.0.0.1 - - [15/Feb/2022:07:21:49 +0000] "GET /api/v1/users/login HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2022:07:22:14 +0000] "GET /api/v1/users/login HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2022:07:22:41 +0000] "POST /api/v1/users/login HTTP/1.1" 200 385 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2022:10:15:02 +0000] "POST /api/v1/users/login HTTP/1.1" 200 405 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2022:10:50:57 +0000] "POST /api/v1/books/ HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2022:10:52:19 +0000] "POST /api/v1/books/ HTTP/1.1" 401 52 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [15/Feb/2022:14:54:37 +0000] "POST /api/v1/users/registrationUser HTTP/1.1" 201 337 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:14:56:59 +0000] "POST /api/v1/users/login HTTP/1.1" 200 363 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:15:00:21 +0000] "GET /api/v1//books/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:15:01:03 +0000] "POST /api/v1//books/ HTTP/1.1" 401 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:15:02:09 +0000] "POST /api/v1//books/ HTTP/1.1" 401 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:15:03:41 +0000] "POST /api/v1//books/ HTTP/1.1" 401 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:15:05:21 +0000] "POST /api/v1//books/ HTTP/1.1" 401 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:15:06:20 +0000] "POST /api/v1//books/ HTTP/1.1" 401 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:15:10:59 +0000] "POST /api/v1/users/registrationAdmin HTTP/1.1" 201 338 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:15:11:14 +0000] "POST /api/v1/users/login HTTP/1.1" 200 365 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:15:12:01 +0000] "POST /api/v1//books/ HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:15:12:36 +0000] "POST /api/v1//books/ HTTP/1.1" 201 176 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:15:14:32 +0000] "POST /api/v1//books/ HTTP/1.1" 201 176 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:15:31:54 +0000] "POST /api/v1//books/ HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:15:33:03 +0000] "POST /api/v1//books/ HTTP/1.1" 201 176 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:15:35:01 +0000] "POST /api/v1//books/ HTTP/1.1" 201 176 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:15:40:06 +0000] "POST /api/v1//books/ HTTP/1.1" 201 176 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:15:50:36 +0000] "POST /api/v1/books HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:15:51:22 +0000] "POST /api/v1/books HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:15:51:33 +0000] "POST /api/v1//books HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:15:57:17 +0000] "POST /api/v1/books HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:15:57:45 +0000] "GET /api/v1/books/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGJjMjgzMDFmZmFiMWNkY2NkMzNiMSIsImVtYWlsIjoiYW50YXJhQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTY0NDkzNzg3NH0.8q9JdyapvfgvGPHrPB8qb1e1e8z1Zv-7bDMUQslghxE HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:15:58:01 +0000] "GET /api/v1/books/ HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:15:58:24 +0000] "GET /api/v1/books/ HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:16:02:31 +0000] "GET /api/v1/users/registrationUser HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:16:03:19 +0000] "GET /api/v1/users/registrationUser HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:16:03:29 +0000] "GET /api/v1/users//registrationUser HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:16:03:44 +0000] "POST /api/v1/users/registrationUser HTTP/1.1" 201 333 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:16:05:08 +0000] "POST /api/v1/books HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:16:07:51 +0000] "POST /api/v1/books HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:16:08:03 +0000] "POST /api/v1/books HTTP/1.1" 401 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:16:08:13 +0000] "POST /api/v1/books HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:16:09:32 +0000] "POST /api/v1/users/login HTTP/1.1" 200 365 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:16:10:11 +0000] "POST /api/v1/books HTTP/1.1" 500 76 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:16:13:58 +0000] "POST /api/v1/books HTTP/1.1" 201 176 "-" "PostmanRuntime/7.29.0"
+

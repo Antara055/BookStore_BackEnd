@@ -12,7 +12,10 @@ router.post('/registrationUser',newUserValidator,setRole('user'),userController.
 //register for admin
 router.post('/registrationAdmin',newUserValidator,setRole('admin'),userController.registration)
 
-//route to get all users
+//login
+router.post("/login", userController.login);
+
+/* //route to get all users
 router.get('', userController.getAllUsers);
 
 //route to create a new user
@@ -25,6 +28,6 @@ router.get('/:_id', userAuth, userController.getUser);
 router.put('/:_id', userController.updateUser);
 
 //route to delete a single user by their user id
-router.delete('/:_id', userController.deleteUser);
+router.delete('/:_id', userController.deleteUser); */
 
 export default router;

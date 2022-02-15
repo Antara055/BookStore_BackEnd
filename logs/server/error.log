@@ -1,0 +1,340 @@
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-14T18:39:13.626Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: BookStore.users index: email_1 dup key: { : "gjhv@gmail.com" } 
+      url - /api/v1/users/registrationAdmin 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-15T03:21:54.672Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (E:\CFP_BZ\book_store\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (E:\CFP_BZ\book_store\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (E:\CFP_BZ\book_store\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (E:\CFP_BZ\book_store\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\CFP_BZ\book_store\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\CFP_BZ\book_store\node_modules\express\lib\router\index.js:321:13) 
+    url - /api/v1/users/registrationAdmin 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-15T03:21:54.703Z"}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (E:\CFP_BZ\book_store\node_modules\express\lib\router\index.js:464:13)
+    at routes (E:\CFP_BZ\book_store\src\routes\/index.js:16:10)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\/index.js:32:32)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Tue Feb 15 2022 10:55:40 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":37975},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18392401,"external":20615887,"heapTotal":80285696,"heapUsed":48884336,"rss":108490752},"pid":5572,"uid":null,"version":"v14.17.3"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (E:\\CFP_BZ\\book_store\\node_modules\\express\\lib\\router\\index.js:464:13)\n    at routes (E:\\CFP_BZ\\book_store\\src\\routes\\/index.js:16:10)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\/index.js:32:32)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-02-15T05:25:40.948Z","trace":[{"column":13,"file":"E:\\CFP_BZ\\book_store\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":464,"method":"use","native":false},{"column":10,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":32,"file":"E:\\CFP_BZ\\book_store\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (E:\CFP_BZ\book_store\node_modules\express\lib\router\index.js:464:13)
+    at routes (E:\CFP_BZ\book_store\src\routes\/index.js:16:10)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\/index.js:32:32)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Tue Feb 15 2022 11:20:51 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":39486},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18392401,"external":20615887,"heapTotal":81072128,"heapUsed":51361032,"rss":108638208},"pid":6936,"uid":null,"version":"v14.17.3"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (E:\\CFP_BZ\\book_store\\node_modules\\express\\lib\\router\\index.js:464:13)\n    at routes (E:\\CFP_BZ\\book_store\\src\\routes\\/index.js:16:10)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\/index.js:32:32)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-02-15T05:50:51.741Z","trace":[{"column":13,"file":"E:\\CFP_BZ\\book_store\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":464,"method":"use","native":false},{"column":10,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":32,"file":"E:\\CFP_BZ\\book_store\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (E:\CFP_BZ\book_store\node_modules\express\lib\router\route.js:202:15)
+    at Function.get (E:\CFP_BZ\book_store\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\routes\/book.route.js:12:8)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Tue Feb 15 2022 12:42:46 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":44401},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18291508,"external":20514994,"heapTotal":80838656,"heapUsed":46321032,"rss":108068864},"pid":4764,"uid":null,"version":"v14.17.3"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (E:\\CFP_BZ\\book_store\\node_modules\\express\\lib\\router\\route.js:202:15)\n    at Function.get (E:\\CFP_BZ\\book_store\\node_modules\\express\\lib\\router\\index.js:516:19)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js:12:8)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-02-15T07:12:47.041Z","trace":[{"column":15,"file":"E:\\CFP_BZ\\book_store\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":202,"method":"<computed> [as get]","native":false},{"column":19,"file":"E:\\CFP_BZ\\book_store\\node_modules\\express\\lib\\router\\index.js","function":"Function.get","line":516,"method":"get","native":false},{"column":8,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js","function":null,"line":12,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-15T10:50:57.475Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'admin' of undefined
+    at _callee3$ (E:\CFP_BZ\book_store\src\middlewares\/auth.middleware.js:46:13)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1//books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-15T15:12:01.177Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 148
+    at JSON.parse (<anonymous>)
+    at parse (E:\CFP_BZ\book_store\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\CFP_BZ\book_store\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (E:\CFP_BZ\book_store\node_modules\raw-body\index.js:224:16)
+    at done (E:\CFP_BZ\book_store\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (E:\CFP_BZ\book_store\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:387:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1//books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-15T15:12:27.426Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'admin' of undefined
+    at _callee3$ (E:\CFP_BZ\book_store\src\middlewares\/auth.middleware.js:46:13)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1//books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-15T15:12:36.591Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'admin' of undefined
+    at _callee3$ (E:\CFP_BZ\book_store\src\middlewares\/auth.middleware.js:46:13)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1//books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-15T15:14:32.421Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'admin' of undefined
+    at _callee3$ (E:\CFP_BZ\book_store\src\middlewares\/auth.middleware.js:46:13)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1//books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-15T15:31:54.963Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'admin' of undefined
+    at _callee3$ (E:\CFP_BZ\book_store\src\middlewares\/auth.middleware.js:46:13)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1//books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-15T15:33:03.529Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'admin' of undefined
+    at _callee3$ (E:\CFP_BZ\book_store\src\middlewares\/auth.middleware.js:46:13)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1//books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-15T15:35:01.349Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'admin' of undefined
+    at _callee3$ (E:\CFP_BZ\book_store\src\middlewares\/auth.middleware.js:46:13)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1//books/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-15T15:40:06.095Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'admin' of undefined
+    at _callee3$ (E:\CFP_BZ\book_store\src\middlewares\/auth.middleware.js:46:13)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-15T15:50:36.493Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'admin' of undefined
+    at _callee3$ (E:\CFP_BZ\book_store\src\middlewares\/auth.middleware.js:46:13)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-15T15:51:22.911Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'admin' of undefined
+    at _callee3$ (E:\CFP_BZ\book_store\src\middlewares\/auth.middleware.js:46:13)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1//books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-15T15:51:33.288Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'admin' of undefined
+    at _callee3$ (E:\CFP_BZ\book_store\src\middlewares\/auth.middleware.js:46:13)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-15T15:57:16.947Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGJjMjgzMDFmZmFiMWNkY2NkMzNiMSIsImVtYWlsIjoiYW50YXJhQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTY0NDkzNzg3NH0.8q9JdyapvfgvGPHrPB8qb1e1e8z1Zv-7bDMUQslghxE 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-15T15:57:45.209Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/ 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-15T15:58:01.554Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'admin' of undefined
+    at _callee3$ (E:\CFP_BZ\book_store\src\middlewares\/auth.middleware.js:46:13)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/books/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-15T15:58:24.691Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 124
+    at JSON.parse (<anonymous>)
+    at parse (E:\CFP_BZ\book_store\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\CFP_BZ\book_store\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (E:\CFP_BZ\book_store\node_modules\raw-body\index.js:224:16)
+    at done (E:\CFP_BZ\book_store\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (E:\CFP_BZ\book_store\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:387:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/registrationUser 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-15T16:02:20.049Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'admin' of undefined
+    at _callee3$ (E:\CFP_BZ\book_store\src\middlewares\/auth.middleware.js:46:13)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-15T16:05:08.507Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'admin' of undefined
+    at _callee3$ (E:\CFP_BZ\book_store\src\middlewares\/auth.middleware.js:46:13)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-15T16:07:51.502Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'admin' of undefined
+    at _callee3$ (E:\CFP_BZ\book_store\src\middlewares\/auth.middleware.js:46:13)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-15T16:08:13.630Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'admin' of undefined
+    at _callee3$ (E:\CFP_BZ\book_store\src\middlewares\/auth.middleware.js:46:13)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-15T16:10:11.837Z"}

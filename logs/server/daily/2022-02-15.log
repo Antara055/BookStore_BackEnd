@@ -1,27 +1,3 @@
-info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-14T16:10:18.459Z"}
-info: Connected to the database. {"timestamp":"2022-02-14T16:10:22.263Z"}
-info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-14T16:13:13.931Z"}
-info: Connected to the database. {"timestamp":"2022-02-14T16:13:14.930Z"}
-info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-14T16:38:30.297Z"}
-info: Connected to the database. {"timestamp":"2022-02-14T16:38:30.410Z"}
-info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-14T16:44:09.116Z"}
-info: Connected to the database. {"timestamp":"2022-02-14T16:44:09.281Z"}
-info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-14T16:45:06.298Z"}
-info: Connected to the database. {"timestamp":"2022-02-14T16:45:06.428Z"}
-info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-14T17:43:50.701Z"}
-info: Connected to the database. {"timestamp":"2022-02-14T17:43:50.845Z"}
-info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-14T17:44:13.377Z"}
-info: Connected to the database. {"timestamp":"2022-02-14T17:44:13.490Z"}
-info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-14T17:44:56.795Z"}
-info: Connected to the database. {"timestamp":"2022-02-14T17:44:56.925Z"}
-info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-14T17:45:24.166Z"}
-info: Connected to the database. {"timestamp":"2022-02-14T17:45:24.231Z"}
-info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-14T18:01:14.716Z"}
-info: Connected to the database. {"timestamp":"2022-02-14T18:01:14.834Z"}
-info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-14T18:21:53.351Z"}
-info: Connected to the database. {"timestamp":"2022-02-14T18:21:53.530Z"}
-info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-14T18:26:22.543Z"}
-info: Connected to the database. {"timestamp":"2022-02-14T18:26:22.641Z"}
 info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-14T18:34:01.070Z"}
 info: Connected to the database. {"timestamp":"2022-02-14T18:34:01.187Z"}
 info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-14T18:35:18.724Z"}
@@ -74,36 +50,8 @@ info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-15T0
 info: Connected to the database. {"timestamp":"2022-02-15T05:15:53.357Z"}
 info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-15T05:25:17.084Z"}
 info: Connected to the database. {"timestamp":"2022-02-15T05:25:17.145Z"}
-error: uncaughtException: Router.use() requires a middleware function but got a Object
-TypeError: Router.use() requires a middleware function but got a Object
-    at Function.use (E:\CFP_BZ\book_store\node_modules\express\lib\router\index.js:464:13)
-    at routes (E:\CFP_BZ\book_store\src\routes\/index.js:16:10)
-    at Object.<anonymous> (E:\CFP_BZ\book_store\src\/index.js:32:32)
-    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-    at Module._compile (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:136:24)
-    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-    at Object.newLoader [as .js] (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:141:7)
-    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Tue Feb 15 2022 10:55:40 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":37975},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18392401,"external":20615887,"heapTotal":80285696,"heapUsed":48884336,"rss":108490752},"pid":5572,"uid":null,"version":"v14.17.3"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (E:\\CFP_BZ\\book_store\\node_modules\\express\\lib\\router\\index.js:464:13)\n    at routes (E:\\CFP_BZ\\book_store\\src\\routes\\/index.js:16:10)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\/index.js:32:32)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-02-15T05:25:40.948Z","trace":[{"column":13,"file":"E:\\CFP_BZ\\book_store\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":464,"method":"use","native":false},{"column":10,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":32,"file":"E:\\CFP_BZ\\book_store\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
-error: uncaughtException: Router.use() requires a middleware function but got a Object
-TypeError: Router.use() requires a middleware function but got a Object
-    at Function.use (E:\CFP_BZ\book_store\node_modules\express\lib\router\index.js:464:13)
-    at routes (E:\CFP_BZ\book_store\src\routes\/index.js:16:10)
-    at Object.<anonymous> (E:\CFP_BZ\book_store\src\/index.js:32:32)
-    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-    at Module._compile (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:136:24)
-    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-    at Object.newLoader [as .js] (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:141:7)
-    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Tue Feb 15 2022 11:20:51 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":39486},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18392401,"external":20615887,"heapTotal":81072128,"heapUsed":51361032,"rss":108638208},"pid":6936,"uid":null,"version":"v14.17.3"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (E:\\CFP_BZ\\book_store\\node_modules\\express\\lib\\router\\index.js:464:13)\n    at routes (E:\\CFP_BZ\\book_store\\src\\routes\\/index.js:16:10)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\/index.js:32:32)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-02-15T05:50:51.741Z","trace":[{"column":13,"file":"E:\\CFP_BZ\\book_store\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":464,"method":"use","native":false},{"column":10,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":32,"file":"E:\\CFP_BZ\\book_store\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
-error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
-Error: Route.get() requires a callback function but got a [object Undefined]
-    at Route.<computed> [as get] (E:\CFP_BZ\book_store\node_modules\express\lib\router\route.js:202:15)
-    at Function.get (E:\CFP_BZ\book_store\node_modules\express\lib\router\index.js:516:19)
-    at Object.<anonymous> (E:\CFP_BZ\book_store\src\routes\/book.route.js:12:8)
-    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-    at Module._compile (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:136:24)
-    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-    at Object.newLoader [as .js] (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:141:7)
-    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Tue Feb 15 2022 12:42:46 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":44401},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18291508,"external":20514994,"heapTotal":80838656,"heapUsed":46321032,"rss":108068864},"pid":4764,"uid":null,"version":"v14.17.3"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (E:\\CFP_BZ\\book_store\\node_modules\\express\\lib\\router\\route.js:202:15)\n    at Function.get (E:\\CFP_BZ\\book_store\\node_modules\\express\\lib\\router\\index.js:516:19)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js:12:8)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-02-15T07:12:47.041Z","trace":[{"column":15,"file":"E:\\CFP_BZ\\book_store\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":202,"method":"<computed> [as get]","native":false},{"column":19,"file":"E:\\CFP_BZ\\book_store\\node_modules\\express\\lib\\router\\index.js","function":"Function.get","line":516,"method":"get","native":false},{"column":8,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js","function":null,"line":12,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+info: Connected to the database. {"timestamp":"2022-02-15T05:25:41.042Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T05:50:51.847Z"}
 info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-15T07:18:21.193Z"}
 info: Connected to the database. {"timestamp":"2022-02-15T07:18:21.290Z"}
 info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGIxYzVmMmFjZjRmMDc3Y2Y2MmI2MiIsImVtYWlsIjoidmh2amtAZ21haWwuY29tIiwiaWF0IjoxNjQ0OTA5NzYwfQ.Ov6dhFF4c5Zh28wyPnxmFnQHJWhF_BpYj9KccSui2xo {"timestamp":"2022-02-15T07:22:40.996Z"}
