@@ -34,6 +34,8 @@ export const login = async (req, res, next) => {
 };
 
 
+
+
 /**
  * Controller to get all users available
  * @param  {object} req - request object

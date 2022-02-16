@@ -128,3 +128,95 @@ info: ::1 - - [15/Feb/2022:16:10:11 +0000] "POST /api/v1/books HTTP/1.1" 500 76 
 
 info: ::1 - - [15/Feb/2022:16:13:58 +0000] "POST /api/v1/books HTTP/1.1" 201 176 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [15/Feb/2022:16:21:35 +0000] "POST /api/v1/books HTTP/1.1" 201 176 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:16:21:46 +0000] "GET /api/v1/books/ HTTP/1.1" 200 1032 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:16:23:58 +0000] "POST /api/v1/books HTTP/1.1" 500 65 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:16:24:57 +0000] "POST /api/v1/books HTTP/1.1" 201 176 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:16:34:40 +0000] "POST /api/v1/books HTTP/1.1" 201 176 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:16:46:24 +0000] "POST /api/v1/books HTTP/1.1" 500 71 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:16:47:49 +0000] "POST /api/v1/books HTTP/1.1" 201 176 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:16:48:37 +0000] "POST /api/v1/books HTTP/1.1" 201 176 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:16:49:52 +0000] "POST /api/v1/users/registrationAdmin HTTP/1.1" 201 338 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:16:50:14 +0000] "POST /api/v1/users/login HTTP/1.1" 200 365 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [15/Feb/2022:16:51:02 +0000] "POST /api/v1/books HTTP/1.1" 201 176 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:05:18:40 +0000] "POST /api/v1/books HTTP/1.1" 201 176 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:05:22:01 +0000] "POST /api/v1/books HTTP/1.1" 201 176 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:05:24:15 +0000] "POST /api/v1/books HTTP/1.1" 201 176 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:05:28:26 +0000] "POST /api/v1/books HTTP/1.1" 201 176 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:05:30:29 +0000] "POST /api/v1/books HTTP/1.1" 201 176 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:05:34:41 +0000] "POST /api/v1/books HTTP/1.1" 201 176 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:05:55:32 +0000] "POST /api/v1/books HTTP/1.1" 201 176 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:05:57:57 +0000] "POST /api/v1/books HTTP/1.1" 201 176 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:06:27:00 +0000] "POST /api/v1/books HTTP/1.1" 201 176 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:06:28:28 +0000] "POST /api/v1/books HTTP/1.1" 500 22 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:06:29:13 +0000] "POST /api/v1/books HTTP/1.1" 201 176 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:06:37:00 +0000] "POST /api/v1/books HTTP/1.1" 201 257 "-" "PostmanRuntime/7.29.0"
+
+error: uncaughtException: upload is not defined
+ReferenceError: upload is not defined
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\routes\/book.route.js:10:26)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\routes\/index.js:5:1) {"date":"Wed Feb 16 2022 12:36:36 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":48542},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18986596,"external":21210122,"heapTotal":81342464,"heapUsed":52726280,"rss":111235072},"pid":7720,"uid":null,"version":"v14.17.3"},"stack":"ReferenceError: upload is not defined\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js:10:26)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\routes\\/index.js:5:1)","trace":[{"column":26,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js","function":null,"line":10,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false}]}
+error: uncaughtException: upload is not defined
+ReferenceError: upload is not defined
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\routes\/book.route.js:10:26)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\routes\/index.js:5:1) {"date":"Wed Feb 16 2022 12:36:36 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":48542},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18985796,"external":21209322,"heapTotal":80818176,"heapUsed":53134056,"rss":110878720},"pid":8592,"uid":null,"version":"v14.17.3"},"stack":"ReferenceError: upload is not defined\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js:10:26)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\routes\\/index.js:5:1)","trace":[{"column":26,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js","function":null,"line":10,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false}]}
+error: uncaughtException: upload is not defined
+ReferenceError: upload is not defined
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\routes\/book.route.js:10:26)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\routes\/index.js:5:1) {"date":"Wed Feb 16 2022 13:42:06 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":52471},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19019019,"external":21242545,"heapTotal":80814080,"heapUsed":44431232,"rss":110338048},"pid":7288,"uid":null,"version":"v14.17.3"},"stack":"ReferenceError: upload is not defined\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js:10:26)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\routes\\/index.js:5:1)","trace":[{"column":26,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js","function":null,"line":10,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false}]}
+info: ::1 - - [16/Feb/2022:08:19:47 +0000] "POST /api/v1/books HTTP/1.1" 500 152 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:08:20:21 +0000] "POST /api/v1/books HTTP/1.1" 201 252 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:08:22:02 +0000] "POST /api/v1/books HTTP/1.1" 201 252 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:08:23:14 +0000] "POST /api/v1/books HTTP/1.1" 201 264 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:08:31:10 +0000] "POST /api/v1/books HTTP/1.1" 201 264 "-" "PostmanRuntime/7.29.0"
+

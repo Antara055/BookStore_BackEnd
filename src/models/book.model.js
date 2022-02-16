@@ -20,7 +20,10 @@ const bookSchema = new Schema(
         },
         description:{
             type:String
-        }
+        },
+        year:{
+            type:Number
+        },
     },
     {
         timestamps: true

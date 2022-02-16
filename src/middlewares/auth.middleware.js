@@ -35,4 +35,34 @@ export const setRole = (role) => {
   };
 };
 
-
+export const adminAuth = async (req, res, next) => {
+  try {
+    let adminToken = req.header('token');
+    if (!adminToken)
+      throw {
+        code: HttpStatus.BAD_REQUEST,
+        message: 'Authorization token is required'
+      };
+    const admin = await jwt.verify(adminToken,'admin',((err,decode)=>{
+      if(err){
+        return res.status(401).send({
+          status: false,
+          message:"Authentication declined"});
+      }
+      else{
+        console.log(req.body);
+        if (decode.role == "admin") {
+          //req.data
+          next();
+      } else {
+          return res.status(401).send({
+              status: false,
+              message: 'Unauthorised access'
+          });
+      }
+      }
+    }))    
+  } catch (error) {
+    next(error);
+  }
+};

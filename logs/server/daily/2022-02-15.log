@@ -378,3 +378,70 @@ info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-15T1
 info: Connected to the database. {"timestamp":"2022-02-15T16:11:52.787Z"}
 info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-15T16:12:56.041Z"}
 info: Connected to the database. {"timestamp":"2022-02-15T16:12:56.100Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-15T16:17:16.921Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T16:17:17.010Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-15T16:20:33.815Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T16:20:33.932Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-15T16:23:10.597Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T16:23:10.669Z"}
+error: 
+    status - 500 
+    message - TypeError: addBook.save is not a function
+    at _callee3$ (E:\CFP_BZ\book_store\src\services\/user.service.js:64:30)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addBook (E:\CFP_BZ\book_store\src\services\/user.service.js:54:21) 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-15T16:23:58.771Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-15T16:24:49.851Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T16:24:49.906Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-15T16:32:11.208Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T16:32:11.266Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-15T16:34:30.084Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T16:34:30.154Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-15T16:35:03.962Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T16:35:04.036Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-15T16:46:00.001Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T16:46:00.067Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-15T16:46:16.970Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T16:46:17.203Z"}
+error: 
+    status - 500 
+    message - TypeError: _book.default.save is not a function
+    at _callee3$ (E:\CFP_BZ\book_store\src\services\/user.service.js:64:27)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addBook (E:\CFP_BZ\book_store\src\services\/user.service.js:54:21) 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-15T16:46:24.532Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-15T16:47:46.189Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T16:47:46.259Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-15T16:48:25.710Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T16:48:25.770Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGJkOWIwZjEwYzJlMTExYzgwZmY0ZSIsImVtYWlsIjoiYW50YXJhQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTY0NDk0MzgxNH0.Cu-6KsXrFlG6_S-bbHUWv63boBW65dBk1kCGvnpq1o4 {"timestamp":"2022-02-15T16:50:14.969Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-15T17:10:08.831Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T17:10:08.898Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-15T17:12:58.086Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T17:12:58.160Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-15T17:13:24.736Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T17:13:24.789Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-15T17:13:32.895Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T17:13:32.953Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-15T17:34:45.926Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T17:34:45.987Z"}

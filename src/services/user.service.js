@@ -1,5 +1,4 @@
 import User from '../models/user.model';
-import Book from '../models/book.model'
 const bcrypt =require("bcrypt");
 const jwt = require("jsonwebtoken");
 import logger from '../config/logger';
@@ -49,6 +48,7 @@ export const loggedin = async (body) => {
     })
   }
 };
+
 
 
 /* //get all users
