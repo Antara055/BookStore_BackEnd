@@ -11,18 +11,22 @@ import jwt from 'jsonwebtoken';
  */
 export const userAuth = async (req, res, next) => {
   try {
-    let bearerToken = req.header('Authorization');
-    if (!bearerToken)
+    let userToken = req.header('token');
+    if (!userToken)
       throw {
         code: HttpStatus.BAD_REQUEST,
         message: 'Authorization token is required'
       };
-    bearerToken = bearerToken.split(' ')[1];
-
-    const { user } = await jwt.verify(bearerToken, 'your-secret-key');
-    res.locals.user = user;
-    res.locals.token = bearerToken;
-    next();
+    //bearerToken = bearerToken.split(' ')[1];
+    const user  = await jwt.verify(userToken, process.env.user,((err,decode)=>{
+      if(err){
+        return res.status(401).send({message:"Authentication decliend"})
+      }
+      else{
+        req.body['data']=decode;
+        next();
+      }
+    }));
   } catch (error) {
     next(error);
   }
@@ -43,16 +47,14 @@ export const adminAuth = async (req, res, next) => {
         code: HttpStatus.BAD_REQUEST,
         message: 'Authorization token is required'
       };
-    const admin = await jwt.verify(adminToken,'admin',((err,decode)=>{
+    const admin = await jwt.verify(adminToken,process.env.user,((err,decode)=>{
       if(err){
         return res.status(401).send({
           status: false,
           message:"Authentication declined"});
       }
       else{
-        console.log(req.body);
         if (decode.role == "admin") {
-          //req.data
           next();
       } else {
           return res.status(401).send({

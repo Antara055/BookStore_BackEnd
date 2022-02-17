@@ -593,3 +593,325 @@ info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T0
 info: Connected to the database. {"timestamp":"2022-02-16T08:29:41.801Z"}
 info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T08:30:54.378Z"}
 info: Connected to the database. {"timestamp":"2022-02-16T08:30:54.439Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T08:44:24.990Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T08:44:25.144Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T10:33:23.409Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T10:33:23.483Z"}
+error: uncaughtException: descendingOrderRouter is not defined
+ReferenceError: descendingOrderRouter is not defined
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\routes\/book.route.js:26:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\routes\/index.js:5:1) {"date":"Wed Feb 16 2022 16:06:10 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":61116},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18975317,"external":21198803,"heapTotal":81600512,"heapUsed":50791144,"rss":110342144},"pid":9120,"uid":null,"version":"v14.17.3"},"stack":"ReferenceError: descendingOrderRouter is not defined\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js:26:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\routes\\/index.js:5:1)","timestamp":"2022-02-16T10:36:10.933Z","trace":[{"column":1,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js","function":null,"line":26,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false}]}
+error: uncaughtException: descendingOrderRouter is not defined
+ReferenceError: descendingOrderRouter is not defined
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\routes\/book.route.js:26:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\routes\/index.js:5:1) {"date":"Wed Feb 16 2022 16:06:56 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":61161},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18975317,"external":21198803,"heapTotal":81862656,"heapUsed":50848120,"rss":109924352},"pid":7148,"uid":null,"version":"v14.17.3"},"stack":"ReferenceError: descendingOrderRouter is not defined\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js:26:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\routes\\/index.js:5:1)","timestamp":"2022-02-16T10:36:56.492Z","trace":[{"column":1,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js","function":null,"line":26,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false}]}
+error: uncaughtException: descendingOrderRouter is not defined
+ReferenceError: descendingOrderRouter is not defined
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\routes\/book.route.js:26:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\routes\/index.js:5:1) {"date":"Wed Feb 16 2022 16:07:19 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":61185},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18975317,"external":21198803,"heapTotal":82386944,"heapUsed":52715856,"rss":110600192},"pid":6568,"uid":null,"version":"v14.17.3"},"stack":"ReferenceError: descendingOrderRouter is not defined\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js:26:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\routes\\/index.js:5:1)","timestamp":"2022-02-16T10:37:19.869Z","trace":[{"column":1,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js","function":null,"line":26,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false}]}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T10:37:59.210Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T10:37:59.278Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/descendingOrder 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-16T10:45:03.475Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T10:49:35.193Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T10:49:35.270Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\CFP_BZ\book_store\uploads\2022-02-16T10:56:21.268ZScreenshot (12).png' 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-16T10:56:21.292Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T10:58:11.269Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T10:58:11.356Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T10:59:46.207Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T10:59:46.287Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\CFP_BZ\book_store\uploads\2022-02-16T10:59:49.237ZScreenshot (12).png' 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-16T10:59:49.266Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\CFP_BZ\book_store\uploads\2022-02-16T11:00:57.563Zimg411.jpg' 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:00:57.570Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T11:06:00.944Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T11:06:01.004Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T11:08:26.379Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T11:08:26.472Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\CFP_BZ\book_store\uploads\2022-02-16T11:08:31.913Zimg411.jpg' 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:08:31.939Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T11:09:50.143Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T11:09:50.272Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\CFP_BZ\book_store\uploads\2022-02-16T11:09:55.812Zimg411.jpg' 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:09:55.828Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T11:10:50.435Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T11:10:50.538Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\CFP_BZ\book_store\uploads\2022-02-16T11:10:57.082Zimg411.jpg' 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:10:57.140Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T11:12:01.113Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T11:12:01.214Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\CFP_BZ\book_store\uploads\2022-02-16T11:12:07.514Zimg411.jpg' 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:12:07.533Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T11:12:55.612Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T11:12:55.696Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\CFP_BZ\book_store\uploads\2022-02-16T11:13:03.064Zimg411.jpg' 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:13:03.081Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T11:15:34.851Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T11:15:34.909Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\CFP_BZ\book_store\upload\2022-02-16T11:15:40.627Zimg411.jpg' 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:15:40.643Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T11:16:42.926Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T11:16:43.008Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\CFP_BZ\upload\2022-02-16T11:16:49.408Zimg411.jpg' 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:16:49.426Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T11:18:24.578Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T11:18:24.654Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\CFP_BZ\book_store\upload\2022-02-16T11:18:33.058Zimg411.jpg' 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:18:33.076Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T11:19:27.445Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T11:19:27.524Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\CFP_BZ\upload\2022-02-16T11:19:31.441Zimg411.jpg' 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:19:31.460Z"}
+error: uncaughtException: E:\CFP_BZ\book_store\src\routes\book.route.js: Bad character escape sequence. (9:40)
+
+[0m [90m  7 |[39m [90m        //cb(null, 'upload');[39m[0m
+[0m [90m  8 |[39m [90m    }, */[39m[0m
+[0m[31m[1m>[22m[39m[90m  9 |[39m     destination[33m:[39m [32m'E:\CFP_BZ\book_store\upload'[39m[33m,[39m[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[0m
+[0m [90m 10 |[39m     filename[33m:[39m [36mfunction[39m (req[33m,[39m file[33m,[39m cb) {[0m
+[0m [90m 11 |[39m         cb([36mnull[39m[33m,[39m [36mnew[39m [33mDate[39m()[33m.[39mtoISOString() [33m+[39m file[33m.[39moriginalname)[33m;[39m[0m
+[0m [90m 12 |[39m     }[0m
+SyntaxError: Bad character escape sequence. (9:40)
+    at Parser._raise (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.readHexChar (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\tokenizer\index.js:1656:14)
+    at Parser.readCodePoint (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\tokenizer\index.js:1431:19)
+    at Parser.readEscapedChar (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\tokenizer\index.js:1567:27)
+    at Parser.readString (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\tokenizer\index.js:1450:21)
+    at Parser.getTokenFromCode (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\tokenizer\index.js:1007:14) {"date":"Wed Feb 16 2022 16:50:14 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":40,"index":358,"line":9},"pos":358,"reasonCode":"InvalidEscapeSequence"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":63760},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18272326,"external":22159491,"heapTotal":88453120,"heapUsed":60716600,"rss":116244480},"pid":10056,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Bad character escape sequence. (9:40)\n    at Parser._raise (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.readHexChar (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1656:14)\n    at Parser.readCodePoint (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1431:19)\n    at Parser.readEscapedChar (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1567:27)\n    at Parser.readString (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1450:21)\n    at Parser.getTokenFromCode (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1007:14)","timestamp":"2022-02-16T11:20:15.045Z","trace":[{"column":45,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":14,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.readHexChar","line":1656,"method":"readHexChar","native":false},{"column":19,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.readCodePoint","line":1431,"method":"readCodePoint","native":false},{"column":27,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.readEscapedChar","line":1567,"method":"readEscapedChar","native":false},{"column":21,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.readString","line":1450,"method":"readString","native":false},{"column":14,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.getTokenFromCode","line":1007,"method":"getTokenFromCode","native":false}]}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T11:21:04.408Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T11:21:04.488Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T11:21:55.335Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T11:21:55.408Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T11:27:00.673Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T11:27:00.757Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T05:09:32.223Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T05:09:32.336Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T05:20:48.281Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T05:20:48.373Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T05:21:03.510Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T05:21:03.598Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T05:22:45.895Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T05:22:45.947Z"}
+error: 
+    status - 500 
+    message - Error: Invalid sort() argument, must be array of arrays
+    at model.Query.Query.sort (E:\CFP_BZ\book_store\node_modules\mquery\lib\mquery.js:1255:15)
+    at model.Query.sort (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:2685:26)
+    at _callee3$ (E:\CFP_BZ\book_store\src\services\/book.service.js:26:36)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/books/newArr 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T05:23:44.440Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T05:24:24.843Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T05:24:24.902Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T05:25:24.224Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T05:25:24.285Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T05:44:58.282Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T05:44:58.336Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T05:50:54.530Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T05:50:54.595Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T05:51:11.224Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T05:51:11.282Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T05:58:41.960Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T05:58:42.015Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T06:16:53.638Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T06:16:53.696Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T06:19:04.558Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T06:19:04.666Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T06:25:28.455Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T06:25:28.514Z"}
+error: uncaughtException: searchRouter is not defined
+ReferenceError: searchRouter is not defined
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\routes\/book.route.js:35:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\routes\/index.js:5:1) {"date":"Thu Feb 17 2022 11:55:41 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":63321},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18977153,"external":21200639,"heapTotal":81600512,"heapUsed":56616488,"rss":110432256},"pid":3308,"uid":null,"version":"v14.17.3"},"stack":"ReferenceError: searchRouter is not defined\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js:35:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\routes\\/index.js:5:1)","timestamp":"2022-02-17T06:25:41.265Z","trace":[{"column":1,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js","function":null,"line":35,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false}]}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T06:26:41.844Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T06:26:41.939Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGRlYjFlZThiMjM1MTlhNDZlMzFlMyIsImVtYWlsIjoidXNlcjExQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjQ1MDgzMTk4fQ.xfWEGpUVSL3p_TBJE3oqdcRotxHtGEPkvDStZ5jK7io {"timestamp":"2022-02-17T07:33:19.367Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T07:48:09.099Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T07:48:09.771Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T10:12:40.283Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T10:12:40.342Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-17T10:15:10.162Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T10:17:35.420Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T10:17:35.473Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T10:21:25.039Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T10:21:25.130Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T10:22:11.949Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T10:22:11.997Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T10:24:03.502Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T10:24:03.552Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (E:\CFP_BZ\book_store\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (E:\CFP_BZ\book_store\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12 
+    url - /api/v1/books/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T10:24:11.738Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T10:27:28.337Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T10:27:28.389Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bearerToken is not defined
+    at _callee$ (E:\CFP_BZ\book_store\src\middlewares\/auth.middleware.js:22:36)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (E:\CFP_BZ\book_store\src\middlewares\/auth.middleware.js:12:22) 
+    url - /api/v1/books/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T10:27:32.100Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T10:28:14.080Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T10:28:14.121Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T10:29:00.870Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T10:29:00.912Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T10:30:05.105Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T10:30:05.155Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T10:33:00.485Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T10:33:00.561Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T10:33:10.064Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T10:33:10.145Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T10:33:37.718Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T10:33:37.775Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T10:36:14.816Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T10:36:14.872Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T10:37:27.342Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T10:37:27.390Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGRlYjFlZThiMjM1MTlhNDZlMzFlMyIsImVtYWlsIjoidXNlcjExQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjQ1MDk0Mjc0fQ.wjLFcP_rB4CEbFhuDSYj68BacfzXKtcTc2hz8TUkQGg {"timestamp":"2022-02-17T10:37:54.534Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T10:42:06.118Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T10:42:06.180Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGJkOWIwZjEwYzJlMTExYzgwZmY0ZSIsImVtYWlsIjoiYW50YXJhQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTY0NTA5NDU1OX0.Rq27DEgeM1gp8dGlK_QtpiGooCJ7HtLezZa4TZJ_30Y {"timestamp":"2022-02-17T10:42:39.477Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T10:52:41.420Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T10:52:41.464Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T10:55:19.860Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T10:55:19.924Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T10:57:23.180Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T10:57:23.240Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T10:57:53.045Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T10:57:53.093Z"}

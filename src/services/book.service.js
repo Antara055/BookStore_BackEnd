@@ -5,7 +5,7 @@ import logger from '../config/logger';
 export const addBook = async (req,res) => {
     const bookModel=new Book({
       title: req.title,
-      image: req.file ,
+      image: req.image,
       author: req.author,
       price: req.price,
       quantity: req.quantity,
@@ -20,3 +20,22 @@ export const addBook = async (req,res) => {
     const data = await Book.find();
     return data;
   };
+ 
+//new arrivals
+  export const descendingOrder = async () => {
+    const data = await Book.find().sort([['createdAt',-1]]);
+    return data;
+};
+    
+  //sort order of books as per price from low to high
+  export const priceLowToHighSort = async () => {
+    const data = await Book.find().sort({price:'asc'})
+    return data;
+  };
+  
+ //sort order of books as per price from high to low
+  export const priceHighToLowSort = async () => {
+    const data = await Book.find().sort({price:-1})
+    return data;
+  };
+

@@ -58,3 +58,132 @@ info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T0
 info: Connected to the database. {"timestamp":"2022-02-16T08:29:41.801Z"}
 info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T08:30:54.378Z"}
 info: Connected to the database. {"timestamp":"2022-02-16T08:30:54.439Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T08:44:24.990Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T08:44:25.144Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T10:33:23.409Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T10:33:23.483Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T10:37:59.210Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T10:37:59.278Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/descendingOrder 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-16T10:45:03.475Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T10:49:35.193Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T10:49:35.270Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\CFP_BZ\book_store\uploads\2022-02-16T10:56:21.268ZScreenshot (12).png' 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-16T10:56:21.292Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T10:58:11.269Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T10:58:11.356Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T10:59:46.207Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T10:59:46.287Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\CFP_BZ\book_store\uploads\2022-02-16T10:59:49.237ZScreenshot (12).png' 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-16T10:59:49.266Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\CFP_BZ\book_store\uploads\2022-02-16T11:00:57.563Zimg411.jpg' 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:00:57.570Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T11:06:00.944Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T11:06:01.004Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T11:08:26.379Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T11:08:26.472Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\CFP_BZ\book_store\uploads\2022-02-16T11:08:31.913Zimg411.jpg' 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:08:31.939Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T11:09:50.143Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T11:09:50.272Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\CFP_BZ\book_store\uploads\2022-02-16T11:09:55.812Zimg411.jpg' 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:09:55.828Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T11:10:50.435Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T11:10:50.538Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\CFP_BZ\book_store\uploads\2022-02-16T11:10:57.082Zimg411.jpg' 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:10:57.140Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T11:12:01.113Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T11:12:01.214Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\CFP_BZ\book_store\uploads\2022-02-16T11:12:07.514Zimg411.jpg' 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:12:07.533Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T11:12:55.612Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T11:12:55.696Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\CFP_BZ\book_store\uploads\2022-02-16T11:13:03.064Zimg411.jpg' 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:13:03.081Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T11:15:34.851Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T11:15:34.909Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\CFP_BZ\book_store\upload\2022-02-16T11:15:40.627Zimg411.jpg' 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:15:40.643Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T11:16:42.926Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T11:16:43.008Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\CFP_BZ\upload\2022-02-16T11:16:49.408Zimg411.jpg' 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:16:49.426Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T11:18:24.578Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T11:18:24.654Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\CFP_BZ\book_store\upload\2022-02-16T11:18:33.058Zimg411.jpg' 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:18:33.076Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T11:19:27.445Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T11:19:27.524Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'E:\CFP_BZ\upload\2022-02-16T11:19:31.441Zimg411.jpg' 
+    url - /api/v1/books 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:19:31.460Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T11:21:04.408Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T11:21:04.488Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T11:21:55.335Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T11:21:55.408Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-16T11:27:00.673Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T11:27:00.757Z"}

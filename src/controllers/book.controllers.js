@@ -4,8 +4,19 @@ import * as bookService from '../services/book.service';
 //Add Book
 export const Addbook = async (req, res, next) => {
     try {
-      const data = await bookService.addBook(req.body);
-      console.log(req.body)
+      console.log("hello",req.body)
+      const bookData = {
+        title: req.body.title,
+        image: req.file.path,
+        author: req.body.author,
+      price: req.body.price,
+      quantity: req.body.quantity,
+      description: req.body.description,
+      year: req.body.year
+      };
+      console.log("bookdata",bookData)
+
+      const data = await bookService.addBook(bookData);
       res.status(HttpStatus.CREATED).json({
         code: HttpStatus.CREATED,
         data: data,
@@ -30,9 +41,43 @@ export const Addbook = async (req, res, next) => {
     }
   };
 
-  //ascendingOrder
-  export const ascendingOrder = async (req, res, next) => {
 
+ //new Arrivals
+  export const descendingOrder = async (req, res, next) => {
+    try {
+      const data = await bookService.descendingOrder();
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: data,
+        message: `New Arrivals books fetched successfully`
+      });
+    } catch (err) {
+      next(err);
+    }
   };
-
-  //
+//Price Low to High
+export const priceLowToHighSort = async (req, res, next) => {
+    try {
+      const data = await bookService.priceLowToHighSort();
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: data,
+        message: `All books fetched successfully as per price low to high`
+      });
+    } catch (err) {
+      next(err);
+    }
+  };
+//Price High to Low
+  export const priceHighToLowSort = async (req, res, next) => {
+    try {
+      const data = await bookService.priceHighToLowSort();
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: data,
+        message: `All books fetched successfully as per price high to low`
+      });
+    } catch (err) {
+      next(err);
+    }
+  };

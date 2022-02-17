@@ -220,3 +220,189 @@ info: ::1 - - [16/Feb/2022:08:23:14 +0000] "POST /api/v1/books HTTP/1.1" 201 264
 
 info: ::1 - - [16/Feb/2022:08:31:10 +0000] "POST /api/v1/books HTTP/1.1" 201 264 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [16/Feb/2022:08:44:32 +0000] "POST /api/v1/books HTTP/1.1" 201 176 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:08:45:36 +0000] "POST /api/v1/books HTTP/1.1" 201 257 "-" "PostmanRuntime/7.29.0"
+
+error: uncaughtException: descendingOrderRouter is not defined
+ReferenceError: descendingOrderRouter is not defined
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\routes\/book.route.js:26:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\routes\/index.js:5:1) {"date":"Wed Feb 16 2022 16:06:10 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":61116},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18983533,"external":21207059,"heapTotal":81600512,"heapUsed":50944536,"rss":110882816},"pid":9120,"uid":null,"version":"v14.17.3"},"stack":"ReferenceError: descendingOrderRouter is not defined\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js:26:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\routes\\/index.js:5:1)","trace":[{"column":1,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js","function":null,"line":26,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false}]}
+error: uncaughtException: descendingOrderRouter is not defined
+ReferenceError: descendingOrderRouter is not defined
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\routes\/book.route.js:26:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\routes\/index.js:5:1) {"date":"Wed Feb 16 2022 16:06:56 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":61162},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18983533,"external":21207059,"heapTotal":81862656,"heapUsed":51001512,"rss":110444544},"pid":7148,"uid":null,"version":"v14.17.3"},"stack":"ReferenceError: descendingOrderRouter is not defined\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js:26:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\routes\\/index.js:5:1)","trace":[{"column":1,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js","function":null,"line":26,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false}]}
+error: uncaughtException: descendingOrderRouter is not defined
+ReferenceError: descendingOrderRouter is not defined
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\routes\/book.route.js:26:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\routes\/index.js:5:1) {"date":"Wed Feb 16 2022 16:07:19 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":61185},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18983533,"external":21207059,"heapTotal":82386944,"heapUsed":52869248,"rss":111202304},"pid":6568,"uid":null,"version":"v14.17.3"},"stack":"ReferenceError: descendingOrderRouter is not defined\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js:26:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\routes\\/index.js:5:1)","trace":[{"column":1,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js","function":null,"line":26,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false}]}
+info: ::1 - - [16/Feb/2022:10:40:38 +0000] "POST /api/v1/books HTTP/1.1" 201 264 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:10:45:03 +0000] "GET /api/v1/books/descendingOrder HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:10:45:32 +0000] "GET /api/v1/books/descendingOrder HTTP/1.1" 200 1231 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:10:56:21 +0000] "POST /api/v1/books HTTP/1.1" 500 153 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:10:59:49 +0000] "POST /api/v1/books HTTP/1.1" 500 153 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:11:00:57 +0000] "POST /api/v1/books HTTP/1.1" 500 144 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:11:08:31 +0000] "POST /api/v1/books HTTP/1.1" 500 144 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:11:09:55 +0000] "POST /api/v1/books HTTP/1.1" 500 144 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:11:10:57 +0000] "POST /api/v1/books HTTP/1.1" 500 144 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:11:12:07 +0000] "POST /api/v1/books HTTP/1.1" 500 144 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:11:13:03 +0000] "POST /api/v1/books HTTP/1.1" 500 144 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:11:15:40 +0000] "POST /api/v1/books HTTP/1.1" 500 143 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:11:16:49 +0000] "POST /api/v1/books HTTP/1.1" 500 131 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:11:18:33 +0000] "POST /api/v1/books HTTP/1.1" 500 143 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [16/Feb/2022:11:19:31 +0000] "POST /api/v1/books HTTP/1.1" 500 131 "-" "PostmanRuntime/7.29.0"
+
+error: uncaughtException: E:\CFP_BZ\book_store\src\routes\book.route.js: Bad character escape sequence. (9:40)
+
+[0m [90m  7 |[39m [90m        //cb(null, 'upload');[39m[0m
+[0m [90m  8 |[39m [90m    }, */[39m[0m
+[0m[31m[1m>[22m[39m[90m  9 |[39m     destination[33m:[39m [32m'E:\CFP_BZ\book_store\upload'[39m[33m,[39m[0m
+[0m [90m    |[39m                                         [31m[1m^[22m[39m[0m
+[0m [90m 10 |[39m     filename[33m:[39m [36mfunction[39m (req[33m,[39m file[33m,[39m cb) {[0m
+[0m [90m 11 |[39m         cb([36mnull[39m[33m,[39m [36mnew[39m [33mDate[39m()[33m.[39mtoISOString() [33m+[39m file[33m.[39moriginalname)[33m;[39m[0m
+[0m [90m 12 |[39m     }[0m
+SyntaxError: Bad character escape sequence. (9:40)
+    at Parser._raise (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.readHexChar (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\tokenizer\index.js:1656:14)
+    at Parser.readCodePoint (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\tokenizer\index.js:1431:19)
+    at Parser.readEscapedChar (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\tokenizer\index.js:1567:27)
+    at Parser.readString (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\tokenizer\index.js:1450:21)
+    at Parser.getTokenFromCode (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\tokenizer\index.js:1007:14) {"date":"Wed Feb 16 2022 16:50:15 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":40,"index":358,"line":9},"pos":358,"reasonCode":"InvalidEscapeSequence"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":63760},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18281726,"external":20505252,"heapTotal":88453120,"heapUsed":60879560,"rss":116822016},"pid":10056,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Bad character escape sequence. (9:40)\n    at Parser._raise (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.readHexChar (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1656:14)\n    at Parser.readCodePoint (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1431:19)\n    at Parser.readEscapedChar (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1567:27)\n    at Parser.readString (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1450:21)\n    at Parser.getTokenFromCode (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1007:14)","trace":[{"column":45,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":14,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.readHexChar","line":1656,"method":"readHexChar","native":false},{"column":19,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.readCodePoint","line":1431,"method":"readCodePoint","native":false},{"column":27,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.readEscapedChar","line":1567,"method":"readEscapedChar","native":false},{"column":21,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.readString","line":1450,"method":"readString","native":false},{"column":14,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.getTokenFromCode","line":1007,"method":"getTokenFromCode","native":false}]}
+info: ::1 - - [16/Feb/2022:11:22:02 +0000] "POST /api/v1/books HTTP/1.1" 201 293 "-" "PostmanRuntime/7.29.0"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:05:09:55 +0000] "GET /api/v1/books/ HTTP/1.1" 200 1449 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [17/Feb/2022:05:13:20 +0000] "POST /api/v1/books HTTP/1.1" 201 298 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [17/Feb/2022:05:13:39 +0000] "POST /api/v1/books HTTP/1.1" 201 298 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [17/Feb/2022:05:13:57 +0000] "POST /api/v1/books HTTP/1.1" 201 297 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [17/Feb/2022:05:16:06 +0000] "POST /api/v1/books HTTP/1.1" 201 313 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [17/Feb/2022:05:16:21 +0000] "POST /api/v1/books HTTP/1.1" 201 313 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [17/Feb/2022:05:16:37 +0000] "POST /api/v1/books HTTP/1.1" 201 313 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [17/Feb/2022:05:16:47 +0000] "POST /api/v1/books HTTP/1.1" 201 314 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [17/Feb/2022:05:18:07 +0000] "GET /api/v1/books/descendingOrder HTTP/1.1" 200 1102 "-" "PostmanRuntime/7.29.0"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:05:20:20 +0000] "GET /api/v1/books/ HTTP/1.1" 200 1082 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:05:22:21 +0000] "GET /api/v1/books/newArr HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:05:23:16 +0000] "GET /api/v1/books/newArr HTTP/1.1" 401 52 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:05:23:44 +0000] "GET /api/v1/books/newArr HTTP/1.1" 500 83 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:05:24:27 +0000] "GET /api/v1/books/newArr HTTP/1.1" 200 1102 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:05:47:41 +0000] "GET /api/v1/books/priceLtoH HTTP/1.1" 200 1107 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:05:48:04 +0000] "GET /api/v1/books/priceHtoL HTTP/1.1" 200 1107 "-" "Thunder Client (https://www.thunderclient.com)"
+
+error: uncaughtException: searchRouter is not defined
+ReferenceError: searchRouter is not defined
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\routes\/book.route.js:35:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\routes\/index.js:5:1) {"date":"Thu Feb 17 2022 11:55:41 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":63321},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18985369,"external":21208895,"heapTotal":81600512,"heapUsed":56769752,"rss":111017984},"pid":3308,"uid":null,"version":"v14.17.3"},"stack":"ReferenceError: searchRouter is not defined\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js:35:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\routes\\/index.js:5:1)","trace":[{"column":1,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/book.route.js","function":null,"line":35,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:06:26:50 +0000] "GET /api/v1/books/ HTTP/1.1" 200 1082 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:06:26:59 +0000] "GET /api/v1/books/newArr HTTP/1.1" 200 1091 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:06:27:05 +0000] "GET /api/v1/books/priceHtoL HTTP/1.1" 200 1107 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:06:28:46 +0000] "POST /api/v1/users/registrationUser HTTP/1.1" 201 334 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:06:31:19 +0000] "GET /api/v1/users/login HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:06:32:15 +0000] "GET /api/v1/users/login HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:07:33:20 +0000] "POST /api/v1/users/login HTTP/1.1" 200 363 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:10:15:10 +0000] "GET /api/v1/books/ HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:10:17:37 +0000] "GET /api/v1/books/ HTTP/1.1" 401 37 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:10:21:30 +0000] "GET /api/v1/books/ HTTP/1.1" 401 37 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:10:24:11 +0000] "GET /api/v1/books/ HTTP/1.1" 500 55 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:10:27:32 +0000] "GET /api/v1/books/ HTTP/1.1" 500 61 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:10:28:18 +0000] "GET /api/v1/books/ HTTP/1.1" 401 37 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:10:28:21 +0000] "GET /api/v1/books/ HTTP/1.1" 401 37 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:10:30:13 +0000] "GET /api/v1/books/ HTTP/1.1" 401 37 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:10:33:46 +0000] "GET /api/v1/books/ HTTP/1.1" 401 37 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:10:37:54 +0000] "POST /api/v1/users/login HTTP/1.1" 200 363 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:10:38:22 +0000] "GET /api/v1/books/ HTTP/1.1" 200 1082 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:10:41:11 +0000] "GET /api/v1/books/ HTTP/1.1" 401 37 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:10:42:10 +0000] "GET /api/v1/books/ HTTP/1.1" 401 37 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:10:42:39 +0000] "POST /api/v1/users/login HTTP/1.1" 200 365 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:10:43:09 +0000] "GET /api/v1/books/ HTTP/1.1" 200 1082 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [17/Feb/2022:10:45:35 +0000] "POST /api/v1/books HTTP/1.1" 201 315 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [17/Feb/2022:10:46:21 +0000] "POST /api/v1/books HTTP/1.1" 201 315 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [17/Feb/2022:10:52:46 +0000] "POST /api/v1/books HTTP/1.1" 401 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [17/Feb/2022:10:54:22 +0000] "POST /api/v1/books HTTP/1.1" 201 315 "-" "PostmanRuntime/7.29.0"
+

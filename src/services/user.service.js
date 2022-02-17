@@ -20,7 +20,7 @@ export const loggedin = async (body) => {
   if (findData) {
     const passworkCheck = await bcrypt.compare(body.password, findData.password)
     if (passworkCheck) {
-      const secretKey = 'admin';
+      const secretKey = process.env.user;
       const payload = { id: findData._id, email: findData.email, role: findData.role};
       const token = await jwt.sign(payload,secretKey)
       logger.info(`Login token  ${token}`);
