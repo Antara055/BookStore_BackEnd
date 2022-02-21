@@ -816,3 +816,11 @@ info: ::ffff:127.0.0.1 - - [21/Feb/2022:13:37:26 +0000] "DELETE /api/v1/cart/rem
 
 info: ::ffff:127.0.0.1 - - [21/Feb/2022:13:38:04 +0000] "GET /api/v1/cart/:getCartItem HTTP/1.1" 200 221 "-" "Thunder Client (https://www.thunderclient.com)"
 
+info: ::ffff:127.0.0.1 - - [21/Feb/2022:13:41:00 +0000] "POST /api/v1/cart/addCartItem HTTP/1.1" 201 214 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [21/Feb/2022:13:41:06 +0000] "GET /api/v1/cart/:getCartItem HTTP/1.1" 200 385 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [21/Feb/2022:13:41:22 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 1115 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [21/Feb/2022:13:41:32 +0000] "POST /api/v1/wishlist/:BookID HTTP/1.1" 400 62 "-" "Thunder Client (https://www.thunderclient.com)"
+
