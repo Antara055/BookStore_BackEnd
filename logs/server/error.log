@@ -635,3 +635,919 @@ error:
     method - GET 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-02-17T10:27:32.100Z"}
+error: uncaughtException: cartRoute is not defined
+ReferenceError: cartRoute is not defined
+    at routes (E:\CFP_BZ\book_store\src\routes\/index.js:17:22)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\/index.js:32:32)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\node_modules\@babel\node\lib\_babel-node.js:176:21) {"date":"Fri Feb 18 2022 00:27:55 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":27147},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18384793,"external":20608279,"heapTotal":82386944,"heapUsed":47021112,"rss":111816704},"pid":2932,"uid":null,"version":"v14.17.3"},"stack":"ReferenceError: cartRoute is not defined\n    at routes (E:\\CFP_BZ\\book_store\\src\\routes\\/index.js:17:22)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\/index.js:32:32)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)","timestamp":"2022-02-17T18:57:55.219Z","trace":[{"column":22,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/index.js","function":"routes","line":17,"method":null,"native":false},{"column":32,"file":"E:\\CFP_BZ\\book_store\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false}]}
+error: uncaughtException: cartRoute is not defined
+ReferenceError: cartRoute is not defined
+    at routes (E:\CFP_BZ\book_store\src\routes\/index.js:17:22)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\/index.js:32:32)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\node_modules\@babel\node\lib\_babel-node.js:176:21) {"date":"Fri Feb 18 2022 00:30:26 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":27299},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18374028,"external":20597514,"heapTotal":81600512,"heapUsed":47043768,"rss":111104000},"pid":2612,"uid":null,"version":"v14.17.3"},"stack":"ReferenceError: cartRoute is not defined\n    at routes (E:\\CFP_BZ\\book_store\\src\\routes\\/index.js:17:22)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\/index.js:32:32)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)","timestamp":"2022-02-17T19:00:26.822Z","trace":[{"column":22,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/index.js","function":"routes","line":17,"method":null,"native":false},{"column":32,"file":"E:\\CFP_BZ\\book_store\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 68
+    at JSON.parse (<anonymous>)
+    at parse (E:\CFP_BZ\book_store\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\CFP_BZ\book_store\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (E:\CFP_BZ\book_store\node_modules\raw-body\index.js:224:16)
+    at done (E:\CFP_BZ\book_store\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (E:\CFP_BZ\book_store\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:387:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/cart/addCartItem 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T19:04:21.023Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/getCartItem 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-17T19:08:05.638Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/getCartItem 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-17T19:08:07.637Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/getCartItem 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-17T19:08:12.371Z"}
+error: 
+    status - 500 
+    message - TypeError: cartService.getCartItems is not a function
+    at _callee2$ (E:\CFP_BZ\book_store\src\controllers\/cart.controller.js:21:40)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getCartItem (E:\CFP_BZ\book_store\src\controllers\/cart.controller.js:19:25) 
+    url - /api/v1/cart/getCartItem 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T19:08:50.627Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at _callee2$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:23:20)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/getCartItem 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T19:18:04.473Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/MNOP 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-18T19:05:46.967Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/MNOP 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-18T19:06:51.704Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'BookID' of undefined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:7:18)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addToCart (E:\CFP_BZ\book_store\src\services\/cart.service.js:5:23) 
+    url - /api/v1/cart/addCartItem 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-18T19:19:43.014Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token 
+ in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (E:\CFP_BZ\book_store\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\CFP_BZ\book_store\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (E:\CFP_BZ\book_store\node_modules\raw-body\index.js:224:16)
+    at done (E:\CFP_BZ\book_store\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (E:\CFP_BZ\book_store\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:387:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/cart/addCartItem 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-18T19:23:18.845Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'BookID' of undefined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:7:18)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addToCart (E:\CFP_BZ\book_store\src\services\/cart.service.js:5:23) 
+    url - /api/v1/cart/addCartItem 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-18T19:24:36.857Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'BookID' of undefined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:8:18)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addToCart (E:\CFP_BZ\book_store\src\services\/cart.service.js:5:23) 
+    url - /api/v1/cart/addCartItem 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-18T19:29:40.960Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Book' of undefined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:8:18)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addToCart (E:\CFP_BZ\book_store\src\services\/cart.service.js:5:23) 
+    url - /api/v1/cart/addCartItem 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-18T19:32:14.630Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Book' of undefined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:8:18)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addToCart (E:\CFP_BZ\book_store\src\services\/cart.service.js:5:23) 
+    url - /api/v1/cart/addCartItem 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-18T19:33:56.390Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Quantity is not defined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:19:103)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/addCartItem 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-19T15:50:16.513Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Quantity is not defined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:19:103)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/addCartItem 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-19T15:50:24.691Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at _callee2$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:34:20)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/getCartItem 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-19T16:46:02.132Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at _callee2$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:34:20)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/getCartItem 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-19T16:50:42.940Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at _callee2$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:34:20)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/getCartItem 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-19T16:51:14.972Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at _callee2$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:35:20)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/:getCartItem 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-19T16:53:32.559Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'length' of null
+    at _callee2$ (E:\CFP_BZ\book_store\src\controllers\/cart.controller.js:22:18)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/:getCartItem 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-19T16:56:01.991Z"}
+error: uncaughtException: Cannot find module '../models/product.model'
+Require stack:
+- E:\CFP_BZ\book_store\src\services\wishlist.service.js
+- E:\CFP_BZ\book_store\src\controllers\wishlist.controllers.js
+- E:\CFP_BZ\book_store\src\routes\wishlist.route.js
+- E:\CFP_BZ\book_store\src\routes\index.js
+- E:\CFP_BZ\book_store\src\index.js
+Error: Cannot find module '../models/product.model'
+Require stack:
+- E:\CFP_BZ\book_store\src\services\wishlist.service.js
+- E:\CFP_BZ\book_store\src\controllers\wishlist.controllers.js
+- E:\CFP_BZ\book_store\src\routes\wishlist.route.js
+- E:\CFP_BZ\book_store\src\routes\index.js
+- E:\CFP_BZ\book_store\src\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\services\/wishlist.service.js:1:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Mon Feb 21 2022 11:51:26 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["E:\\CFP_BZ\\book_store\\src\\services\\wishlist.service.js","E:\\CFP_BZ\\book_store\\src\\controllers\\wishlist.controllers.js","E:\\CFP_BZ\\book_store\\src\\routes\\wishlist.route.js","E:\\CFP_BZ\\book_store\\src\\routes\\index.js","E:\\CFP_BZ\\book_store\\src\\index.js"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":87449},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18303961,"external":20527447,"heapTotal":83308544,"heapUsed":63174048,"rss":113152000},"pid":1780,"uid":null,"version":"v14.17.3"},"stack":"Error: Cannot find module '../models/product.model'\nRequire stack:\n- E:\\CFP_BZ\\book_store\\src\\services\\wishlist.service.js\n- E:\\CFP_BZ\\book_store\\src\\controllers\\wishlist.controllers.js\n- E:\\CFP_BZ\\book_store\\src\\routes\\wishlist.route.js\n- E:\\CFP_BZ\\book_store\\src\\routes\\index.js\n- E:\\CFP_BZ\\book_store\\src\\index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:746:27)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\services\\/wishlist.service.js:1:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-02-21T06:21:26.417Z","trace":[{"column":15,"file":"internal/modules/cjs/loader.js","function":"Module._resolveFilename","line":902,"method":"_resolveFilename","native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":746,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"E:\\CFP_BZ\\book_store\\src\\services\\/wishlist.service.js","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: uncaughtException: wishlistRoute is not defined
+ReferenceError: wishlistRoute is not defined
+    at routes (E:\CFP_BZ\book_store\src\routes\/index.js:20:26)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\src\/index.js:32:32)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\node_modules\@babel\node\lib\_babel-node.js:176:21) {"date":"Mon Feb 21 2022 11:56:31 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":87755},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18400041,"external":20623527,"heapTotal":84094976,"heapUsed":59441272,"rss":114290688},"pid":412,"uid":null,"version":"v14.17.3"},"stack":"ReferenceError: wishlistRoute is not defined\n    at routes (E:\\CFP_BZ\\book_store\\src\\routes\\/index.js:20:26)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\/index.js:32:32)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)","timestamp":"2022-02-21T06:26:31.609Z","trace":[{"column":26,"file":"E:\\CFP_BZ\\book_store\\src\\routes\\/index.js","function":"routes","line":20,"method":null,"native":false},{"column":32,"file":"E:\\CFP_BZ\\book_store\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:620dd9839407e9160cc871d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T06:40:07.688Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:BookID 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T06:44:13.087Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/wishlist.service.js:51:19)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/BookID 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T07:24:05.969Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:620dd9839407e9160cc871d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T07:26:16.565Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:620dd9839407e9160cc871d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T07:30:12.173Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:620dd9839407e9160cc871d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T07:35:06.807Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:620dd9839407e9160cc871d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T07:38:37.961Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:620dd9839407e9160cc871d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T07:39:02.315Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:620dd9839407e9160cc871d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T07:47:39.729Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:620dd9839407e9160cc871d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T07:56:22.435Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:620dd9839407e9160cc871d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T07:59:32.070Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:620dd9839407e9160cc871d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T08:00:58.696Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:620dd9839407e9160cc871d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T08:01:53.948Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:620dd9839407e9160cc871d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T08:04:46.459Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:620dd9839407e9160cc871d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T08:09:35.420Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 46
+    at JSON.parse (<anonymous>)
+    at parse (E:\CFP_BZ\book_store\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\CFP_BZ\book_store\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (E:\CFP_BZ\book_store\node_modules\raw-body\index.js:224:16)
+    at done (E:\CFP_BZ\book_store\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (E:\CFP_BZ\book_store\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:387:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/wishlist/:BookID 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T08:12:04.112Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'filter' of undefined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/wishlist.service.js:27:75)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:BookID 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T08:15:15.126Z"}
+error: uncaughtException: E:\CFP_BZ\book_store\src\services\wishlist.service.js: 'import' and 'export' may only appear at the top level. (59:0)
+
+[0m [90m 57 |[39m[0m
+[0m [90m 58 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 59 |[39m [36mexport[39m [36mconst[39m removeWishlist [33m=[39m [36masync[39m (req) [33m=>[39m {[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m 60 |[39m     [36mconst[39m user_Active_WishList [33m=[39m [36mawait[39m [33mWishList[39m[33m.[39mfindOne({[0m
+[0m [90m 61 |[39m         [33mUserID[39m[33m:[39m req[33m.[39mbody[33m.[39m[33mUSER_ID[39m[0m
+[0m [90m 62 |[39m     })[33m;[39m[0m
+SyntaxError: 'import' and 'export' may only appear at the top level. (59:0)
+    at Parser._raise (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.parseStatementContent (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\statement.js:413:16)
+    at Parser.parseStatement (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\statement.js:329:17)
+    at Parser.parseBlockOrModuleBlockBody (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\statement.js:1073:25)
+    at Parser.parseBlockBody (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\statement.js:1049:10)
+    at Parser.parseBlock (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\statement.js:1019:10) {"date":"Mon Feb 21 2022 13:52:29 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":0,"index":1875,"line":59},"pos":1875,"reasonCode":"UnexpectedImportExport"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":94713},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18288710,"external":22179952,"heapTotal":94003200,"heapUsed":72686312,"rss":123293696},"pid":3892,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: 'import' and 'export' may only appear at the top level. (59:0)\n    at Parser._raise (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.parseStatementContent (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\statement.js:413:16)\n    at Parser.parseStatement (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\statement.js:329:17)\n    at Parser.parseBlockOrModuleBlockBody (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1073:25)\n    at Parser.parseBlockBody (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1049:10)\n    at Parser.parseBlock (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1019:10)","timestamp":"2022-02-21T08:22:30.103Z","trace":[{"column":45,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":16,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatementContent","line":413,"method":"parseStatementContent","native":false},{"column":17,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatement","line":329,"method":"parseStatement","native":false},{"column":25,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseBlockOrModuleBlockBody","line":1073,"method":"parseBlockOrModuleBlockBody","native":false},{"column":10,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseBlockBody","line":1049,"method":"parseBlockBody","native":false},{"column":10,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseBlock","line":1019,"method":"parseBlock","native":false}]}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/wishlist.service.js:37:23)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:BookID 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T08:26:22.398Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/wishlist/:BookID 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T08:30:42.119Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/wishlist/:BookID 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T08:36:32.049Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-21T08:51:19.453Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at _callee3$ (E:\CFP_BZ\book_store\src\services\/wishlist.service.js:80:23)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T08:51:57.654Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at _callee3$ (E:\CFP_BZ\book_store\src\services\/wishlist.service.js:80:19)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T08:55:42.763Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at _callee3$ (E:\CFP_BZ\book_store\src\services\/wishlist.service.js:80:19)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T08:57:55.204Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:BookID 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T09:24:26.722Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'BookID' of undefined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:6:52)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addToCart (E:\CFP_BZ\book_store\src\services\/cart.service.js:5:23) 
+    url - /api/v1/cart/addCartItem 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T09:54:11.503Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'BookID' of undefined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:6:52)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addToCart (E:\CFP_BZ\book_store\src\services\/cart.service.js:5:23) 
+    url - /api/v1/cart/addCartItem 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T09:55:37.277Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'BookID' of undefined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:7:52)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addToCart (E:\CFP_BZ\book_store\src\services\/cart.service.js:5:23) 
+    url - /api/v1/cart/addCartItem 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T09:57:19.467Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'BookID' of undefined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:9:64)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/addCartItem 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T09:58:15.842Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'BookID' of undefined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:9:64)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/addCartItem 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T10:02:02.347Z"}
+error: uncaughtException: E:\CFP_BZ\book_store\src\services\wishlist.service.js: Unexpected token, expected "," (9:15)
+
+[0m [90m  7 |[39m     })[0m
+[0m [90m  8 |[39m     [36mconst[39m user_Active_WishList [33m=[39m [36mawait[39m [33mWishList[39m[33m.[39mfindOne({[0m
+[0m[31m[1m>[22m[39m[90m  9 |[39m         console[33m.[39mlog(req[33m.[39mbody)[33m;[39m[0m
+[0m [90m    |[39m                [31m[1m^[22m[39m[0m
+[0m [90m 10 |[39m         [33mUserID[39m[33m:[39m req[33m.[39mbody[33m.[39m[33mUSER_ID[39m[0m
+[0m [90m 11 |[39m     })[33m;[39m[0m
+[0m [90m 12 |[39m[0m
+SyntaxError: Unexpected token, expected "," (9:15)
+    at Parser._raise (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.unexpected (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\util.js:174:16)
+    at Parser.expect (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\util.js:150:28)
+    at Parser.parseObjectLike (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\expression.js:1947:14)
+    at Parser.parseExprAtom (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\expression.js:1150:21)
+    at Parser.parseExprSubscripts (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\expression.js:682:23) {"date":"Mon Feb 21 2022 16:34:16 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":15,"index":302,"line":9},"pos":302,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":104420},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18288710,"external":22179952,"heapTotal":93081600,"heapUsed":72091528,"rss":122474496},"pid":7028,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Unexpected token, expected \",\" (9:15)\n    at Parser._raise (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.unexpected (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n    at Parser.expect (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\util.js:150:28)\n    at Parser.parseObjectLike (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1947:14)\n    at Parser.parseExprAtom (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1150:21)\n    at Parser.parseExprSubscripts (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\expression.js:682:23)","timestamp":"2022-02-21T11:04:16.971Z","trace":[{"column":45,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":16,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.unexpected","line":174,"method":"unexpected","native":false},{"column":28,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.expect","line":150,"method":"expect","native":false},{"column":14,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseObjectLike","line":1947,"method":"parseObjectLike","native":false},{"column":21,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprAtom","line":1150,"method":"parseExprAtom","native":false},{"column":23,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":682,"method":"parseExprSubscripts","native":false}]}
+error: uncaughtException: E:\CFP_BZ\book_store\src\services\wishlist.service.js: Unexpected token, expected "," (9:15)
+
+[0m [90m  7 |[39m     })[0m
+[0m [90m  8 |[39m     [36mconst[39m user_Active_WishList [33m=[39m [36mawait[39m [33mWishList[39m[33m.[39mfindOne({[0m
+[0m[31m[1m>[22m[39m[90m  9 |[39m         console[33m.[39mlog(req[33m.[39mbody)[33m;[39m[0m
+[0m [90m    |[39m                [31m[1m^[22m[39m[0m
+[0m [90m 10 |[39m         [33mUserID[39m[33m:[39m req[33m.[39mbody[33m.[39m[33mUSER_ID[39m[0m
+[0m [90m 11 |[39m     })[33m;[39m[0m
+[0m [90m 12 |[39m[0m
+SyntaxError: Unexpected token, expected "," (9:15)
+    at Parser._raise (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.unexpected (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\util.js:174:16)
+    at Parser.expect (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\util.js:150:28)
+    at Parser.parseObjectLike (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\expression.js:1947:14)
+    at Parser.parseExprAtom (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\expression.js:1150:21)
+    at Parser.parseExprSubscripts (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\expression.js:682:23) {"date":"Mon Feb 21 2022 16:34:25 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":15,"index":302,"line":9},"pos":302,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":104429},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18288710,"external":22179952,"heapTotal":94027776,"heapUsed":72835280,"rss":123559936},"pid":5220,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Unexpected token, expected \",\" (9:15)\n    at Parser._raise (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.unexpected (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n    at Parser.expect (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\util.js:150:28)\n    at Parser.parseObjectLike (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1947:14)\n    at Parser.parseExprAtom (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1150:21)\n    at Parser.parseExprSubscripts (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\expression.js:682:23)","timestamp":"2022-02-21T11:04:25.915Z","trace":[{"column":45,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":16,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.unexpected","line":174,"method":"unexpected","native":false},{"column":28,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.expect","line":150,"method":"expect","native":false},{"column":14,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseObjectLike","line":1947,"method":"parseObjectLike","native":false},{"column":21,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprAtom","line":1150,"method":"parseExprAtom","native":false},{"column":23,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":682,"method":"parseExprSubscripts","native":false}]}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'title' of undefined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:54:49)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/addCartItem 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T13:02:03.574Z"}
+error: 
+      status - 31160
+      message - 'query' parameter must be an object, found objectId 
+      url - /api/v1/cart/addCartItem 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-21T13:03:12.897Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 31160
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (E:\CFP_BZ\book_store\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (E:\CFP_BZ\book_store\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (E:\CFP_BZ\book_store\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (E:\CFP_BZ\book_store\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\CFP_BZ\book_store\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\CFP_BZ\book_store\node_modules\express\lib\router\index.js:321:13) 
+    url - /api/v1/cart/addCartItem 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T13:03:12.954Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'title' of undefined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:22:45)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/addCartItem 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T13:07:00.595Z"}
+error: uncaughtException: E:\CFP_BZ\book_store\src\services\cart.service.js: Identifier 'getCartItems' has already been declared. (74:14)
+
+[0m [90m 72 |[39m [90m    } */[39m[0m
+[0m [90m 73 |[39m }[0m
+[0m[31m[1m>[22m[39m[90m 74 |[39m  [36mexport[39m [36mconst[39m getCartItems [33m=[39m [36masync[39m (req) [33m=>[39m {[0m
+[0m [90m    |[39m               [31m[1m^[22m[39m[0m
+[0m [90m 75 |[39m     [36mlet[39m cartData [33m=[39m [36mawait[39m [33mCart[39m[33m.[39mfind({ user_id[33m:[39m req[33m.[39mdata[33m.[39mid })[33m;[39m[0m
+[0m [90m 76 |[39m     [36mreturn[39m cartData[33m;[39m[0m
+[0m [90m 77 |[39m }[33m;[39m [0m
+SyntaxError: Identifier 'getCartItems' has already been declared. (74:14)
+    at Parser._raise (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at ScopeHandler.checkRedeclarationInScope (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\util\scope.js:152:12)
+    at ScopeHandler.declareName (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\util\scope.js:113:12)
+    at Parser.checkLVal (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\lval.js:554:22)
+    at Parser.parseVarId (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\statement.js:1248:10)
+    at Parser.parseVar (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\statement.js:1209:12) {"date":"Mon Feb 21 2022 18:50:29 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":14,"index":2524,"line":74},"pos":2524,"reasonCode":"VarRedeclaration"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":112592},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18288710,"external":22171760,"heapTotal":91795456,"heapUsed":70644776,"rss":120840192},"pid":6684,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Identifier 'getCartItems' has already been declared. (74:14)\n    at Parser._raise (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at ScopeHandler.checkRedeclarationInScope (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\util\\scope.js:152:12)\n    at ScopeHandler.declareName (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\util\\scope.js:113:12)\n    at Parser.checkLVal (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\lval.js:554:22)\n    at Parser.parseVarId (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1248:10)\n    at Parser.parseVar (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1209:12)","timestamp":"2022-02-21T13:20:29.256Z","trace":[{"column":45,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":12,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\util\\scope.js","function":"ScopeHandler.checkRedeclarationInScope","line":152,"method":"checkRedeclarationInScope","native":false},{"column":12,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\util\\scope.js","function":"ScopeHandler.declareName","line":113,"method":"declareName","native":false},{"column":22,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\lval.js","function":"Parser.checkLVal","line":554,"method":"checkLVal","native":false},{"column":10,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseVarId","line":1248,"method":"parseVarId","native":false},{"column":12,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseVar","line":1209,"method":"parseVar","native":false}]}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/removeCartItem 
+      method - DELETE 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-21T13:28:20.009Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/removeCartItem 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T13:28:59.839Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/removeCartItem 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T13:31:09.704Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/removeCartItem 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T13:31:26.554Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/removeCartItem 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T13:33:04.216Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/removeCartItem 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T13:35:53.558Z"}

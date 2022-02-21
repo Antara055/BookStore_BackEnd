@@ -39,3 +39,10 @@ export const addBook = async (req,res) => {
     return data;
   };
 
+  //Search
+  export const searchBook = async (req) => {
+      const data = await Book.find({
+         title: { $regex: req, $options: 'i' } 
+      });
+      return data;
+  };

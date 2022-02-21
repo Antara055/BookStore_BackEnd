@@ -18,7 +18,6 @@ const router = express.Router();
 
 //Add Books
 router.post("",adminAuth,upload.single("image"),bookController.Addbook)
-//
 
 //get all Books
 router.get("/",userAuth,bookController.GetAllBooks)
@@ -32,5 +31,6 @@ router.get('/priceLtoH', userAuth, bookController.priceLowToHighSort);
 //sort books as per price from high to low
 router.get('/priceHtoL', userAuth, bookController.priceHighToLowSort);
 
-
+//search
+router.get('/:title', userAuth, bookController.searchBook)
 export default router;

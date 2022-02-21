@@ -82,3 +82,11 @@ info: ::1 - - [17/Feb/2022:10:52:46 +0000] "POST /api/v1/books HTTP/1.1" 401 48 
 
 info: ::1 - - [17/Feb/2022:10:54:22 +0000] "POST /api/v1/books HTTP/1.1" 201 315 "-" "PostmanRuntime/7.29.0"
 
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:10:59:06 +0000] "GET /api/v1/books/priceHtoL HTTP/1.1" 401 37 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:10:59:47 +0000] "GET /api/v1/books/priceHtoL HTTP/1.1" 200 1627 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:11:00:10 +0000] "GET /api/v1/books/newArr HTTP/1.1" 200 1611 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [17/Feb/2022:11:01:04 +0000] "GET /api/v1/books/priceHtoL HTTP/1.1" 200 1627 "-" "Thunder Client (https://www.thunderclient.com)"
+

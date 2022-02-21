@@ -1,0 +1,643 @@
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T06:12:23.423Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T06:12:23.490Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T06:13:36.799Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T06:13:36.858Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T06:26:31.685Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T06:28:31.660Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T06:28:31.712Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:620dd9839407e9160cc871d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T06:40:07.688Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T06:42:52.131Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T06:42:52.203Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:BookID 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T06:44:13.087Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T07:23:49.396Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T07:23:49.480Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/wishlist.service.js:51:19)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/BookID 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T07:24:05.969Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T07:25:50.532Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T07:25:50.588Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:620dd9839407e9160cc871d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T07:26:16.565Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T07:30:02.818Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T07:30:02.883Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:620dd9839407e9160cc871d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T07:30:12.173Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:620dd9839407e9160cc871d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T07:35:06.807Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:620dd9839407e9160cc871d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T07:38:37.961Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:620dd9839407e9160cc871d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T07:39:02.315Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T07:40:46.353Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T07:40:46.423Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:620dd9839407e9160cc871d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T07:47:39.729Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T07:54:46.531Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T07:54:46.579Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T07:56:17.077Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T07:56:17.123Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:620dd9839407e9160cc871d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T07:56:22.435Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T07:59:22.069Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T07:59:22.124Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:620dd9839407e9160cc871d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T07:59:32.070Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T08:00:51.192Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T08:00:51.270Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:620dd9839407e9160cc871d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T08:00:58.696Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T08:01:47.888Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T08:01:47.956Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:620dd9839407e9160cc871d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T08:01:53.948Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T08:04:14.601Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T08:04:14.672Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:620dd9839407e9160cc871d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T08:04:46.459Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T08:08:59.275Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T08:08:59.358Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T08:09:30.312Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T08:09:30.350Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:620dd9839407e9160cc871d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T08:09:35.420Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T08:11:22.024Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T08:11:22.074Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 46
+    at JSON.parse (<anonymous>)
+    at parse (E:\CFP_BZ\book_store\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\CFP_BZ\book_store\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (E:\CFP_BZ\book_store\node_modules\raw-body\index.js:224:16)
+    at done (E:\CFP_BZ\book_store\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (E:\CFP_BZ\book_store\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:387:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/wishlist/:BookID 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T08:12:04.112Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T08:14:35.772Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T08:14:35.879Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'filter' of undefined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/wishlist.service.js:27:75)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:BookID 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T08:15:15.126Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T08:26:03.980Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T08:26:04.041Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/wishlist.service.js:37:23)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:BookID 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T08:26:22.398Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T08:28:19.320Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T08:28:19.362Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T08:30:36.333Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T08:30:36.388Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/wishlist/:BookID 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T08:30:42.119Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T08:33:31.636Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T08:33:31.726Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/wishlist/:BookID 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T08:36:32.049Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T08:41:45.602Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T08:41:45.641Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T08:46:56.581Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T08:46:56.649Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-21T08:51:19.453Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at _callee3$ (E:\CFP_BZ\book_store\src\services\/wishlist.service.js:80:23)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T08:51:57.654Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T08:55:33.660Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T08:55:33.757Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at _callee3$ (E:\CFP_BZ\book_store\src\services\/wishlist.service.js:80:19)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T08:55:42.763Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at _callee3$ (E:\CFP_BZ\book_store\src\services\/wishlist.service.js:80:19)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T08:57:55.204Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T09:01:13.608Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T09:01:13.769Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T09:03:44.795Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T09:03:44.860Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T09:05:25.165Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T09:05:25.220Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T09:06:41.158Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T09:06:41.210Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T09:08:55.788Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T09:08:55.855Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T09:09:54.035Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T09:09:54.109Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T09:10:25.199Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T09:10:25.243Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T09:24:10.204Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T09:24:10.263Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist/:BookID 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T09:24:26.722Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T09:25:50.559Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T09:25:50.651Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T09:31:33.798Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T09:31:33.884Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T09:32:01.887Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T09:32:01.948Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T09:32:30.083Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T09:32:30.126Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T09:32:42.641Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T09:32:42.696Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T09:36:16.285Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T09:36:16.346Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T09:38:00.639Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T09:38:00.687Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T09:45:45.798Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T09:45:45.845Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T09:47:34.553Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T09:47:34.607Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T09:53:19.439Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T09:53:19.486Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'BookID' of undefined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:6:52)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addToCart (E:\CFP_BZ\book_store\src\services\/cart.service.js:5:23) 
+    url - /api/v1/cart/addCartItem 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T09:54:11.503Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T09:55:27.482Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T09:55:27.534Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'BookID' of undefined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:6:52)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addToCart (E:\CFP_BZ\book_store\src\services\/cart.service.js:5:23) 
+    url - /api/v1/cart/addCartItem 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T09:55:37.277Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T09:57:10.823Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T09:57:10.879Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'BookID' of undefined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:7:52)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addToCart (E:\CFP_BZ\book_store\src\services\/cart.service.js:5:23) 
+    url - /api/v1/cart/addCartItem 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T09:57:19.467Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T09:58:09.458Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T09:58:09.522Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'BookID' of undefined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:9:64)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/addCartItem 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T09:58:15.842Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T10:01:44.736Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T10:01:44.831Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'BookID' of undefined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:9:64)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/addCartItem 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T10:02:02.347Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T10:02:39.154Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T10:02:39.201Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T11:00:10.147Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T11:00:10.248Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T11:04:57.467Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T11:04:57.510Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T11:07:38.339Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T11:07:38.382Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T11:25:06.265Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T11:25:06.331Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T11:42:40.948Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T11:42:40.991Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T11:45:50.757Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T11:45:50.822Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T11:55:48.917Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T11:55:48.968Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T12:09:15.103Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T12:09:15.153Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T13:01:52.944Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T13:01:53.020Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'title' of undefined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:54:49)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/addCartItem 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T13:02:03.574Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T13:03:04.920Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T13:03:04.972Z"}
+error: 
+      status - 31160
+      message - 'query' parameter must be an object, found objectId 
+      url - /api/v1/cart/addCartItem 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-21T13:03:12.897Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 31160
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (E:\CFP_BZ\book_store\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (E:\CFP_BZ\book_store\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (E:\CFP_BZ\book_store\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (E:\CFP_BZ\book_store\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\CFP_BZ\book_store\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\CFP_BZ\book_store\node_modules\express\lib\router\index.js:321:13) 
+    url - /api/v1/cart/addCartItem 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T13:03:12.954Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T13:04:40.605Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T13:04:40.670Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T13:06:31.178Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T13:06:31.242Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'title' of undefined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:22:45)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/addCartItem 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T13:07:00.595Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T13:07:59.161Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T13:07:59.288Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T13:11:14.483Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T13:11:14.560Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T13:12:06.664Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T13:12:06.705Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T13:21:16.427Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T13:21:16.487Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T13:21:51.327Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T13:21:51.433Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T13:24:29.030Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T13:24:29.095Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T13:27:08.467Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T13:27:08.521Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/removeCartItem 
+      method - DELETE 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-21T13:28:20.009Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/removeCartItem 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T13:28:59.839Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/removeCartItem 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T13:31:09.704Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/removeCartItem 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T13:31:26.554Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T13:32:55.803Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T13:32:55.856Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/removeCartItem 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T13:33:04.216Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T13:35:29.890Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T13:35:29.929Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/removeCartItem 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T13:35:53.558Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T13:37:24.616Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T13:37:24.658Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T13:39:08.204Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T13:39:08.260Z"}
