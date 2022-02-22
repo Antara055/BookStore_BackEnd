@@ -41,11 +41,17 @@ export const AddToWishlist = async (req) => {
     }
 }
 
-
+//get all wishlist item
 export const fetchWishList = async (body) => {
     const user_Active_WishList = await WishList.find({
-        UserID: body.USER_ID
+        UserID: body.data.id
     });
     return user_Active_WishList;
 }
 
+//remove wishlist item
+export const removeItems = async (req) => {
+    console.log(req);
+    const data = await WishList.deleteOne({ BookID: req.BookID })
+    return data;
+};

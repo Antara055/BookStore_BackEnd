@@ -36,3 +36,17 @@ export const fetchWishList = async (req, res, next) => {
     next(error)
   }
 }
+
+//remove wishlist items
+export const removeItem = async(req, res, next) => {
+  try {
+      const data = await wishlistService.removeItems(req.body);
+      res.status(HttpStatus.ACCEPTED).json({
+          code: HttpStatus.ACCEPTED,
+          data: data,
+          message: 'Book removed from wishlist'
+      });
+  } catch (error) {
+      next(error);
+  }
+};

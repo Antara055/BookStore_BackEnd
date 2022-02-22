@@ -60,9 +60,3 @@ export const addToCart = async (req, res) => {
     return cartData;
 }; 
 
-//remove cart item
-export const removeCartItems = async (req) => {
-    console.log(req);
-    const data = await Cart.deleteOne({ BookID: req.BookID })
-    return data;
-};

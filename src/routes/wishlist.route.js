@@ -5,9 +5,12 @@ import { userAuth } from '../middlewares/auth.middleware';
 const router = express.Router();
 
 // add in wishlist
-router.post("/:BookID",userAuth,wishlistController.AddToWishlist);
+router.post("",userAuth,wishlistController.AddToWishlist);
 
 // fetch the wishlist
 router.get("/",userAuth,wishlistController.fetchWishList);
+
+//route to remove book from cart
+router.delete('',userAuth,wishlistController.removeItem)
 
 export default router;

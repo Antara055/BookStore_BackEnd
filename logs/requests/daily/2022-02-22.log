@@ -4,18 +4,6 @@ info: ::1 - - [22/Feb/2022:06:15:18 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-
 
 info: ::1 - - [22/Feb/2022:06:16:00 +0000] "GET /api-docs/ HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
 
-error: uncaughtException: swaggerDocs is not defined
-ReferenceError: swaggerDocs is not defined
-    at Object.<anonymous> (E:\CFP_BZ\book_store\src\/index.js:30:54)
-    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-    at Module._compile (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:136:24)
-    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-    at Object.newLoader [as .js] (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:141:7)
-    at Module.load (internal/modules/cjs/loader.js:950:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
-    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
-    at Object.<anonymous> (E:\CFP_BZ\book_store\node_modules\@babel\node\lib\_babel-node.js:176:21)
-    at Module._compile (internal/modules/cjs/loader.js:1085:14) {"date":"Tue Feb 22 2022 11:51:20 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":59196},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18358816,"external":20582342,"heapTotal":157503488,"heapUsed":134099792,"rss":188436480},"pid":6260,"uid":null,"version":"v14.17.3"},"stack":"ReferenceError: swaggerDocs is not defined\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\/index.js:30:54)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)","trace":[{"column":54,"file":"E:\\CFP_BZ\\book_store\\src\\/index.js","function":null,"line":30,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false}]}
 info: ::1 - - [22/Feb/2022:06:31:00 +0000] "GET /api-docs/ HTTP/1.1" 200 3102 "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
 
 info: ::1 - - [22/Feb/2022:06:31:01 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 12400 "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
@@ -257,16 +245,4 @@ info: ::1 - - [22/Feb/2022:09:16:27 +0000] "GET /api-docs/swagger-ui-init.js HTT
 info: ::ffff:127.0.0.1 - - [22/Feb/2022:09:16:27 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
 
 info: ::1 - - [22/Feb/2022:09:16:28 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
-
-info: ::1 - - [22/Feb/2022:09:17:33 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
-
-info: ::1 - - [22/Feb/2022:09:17:33 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
-
-info: ::1 - - [22/Feb/2022:09:17:33 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
-
-info: ::1 - - [22/Feb/2022:09:17:33 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 15712 "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
-
-info: ::1 - - [22/Feb/2022:09:17:33 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
-
-info: ::1 - - [22/Feb/2022:09:17:33 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
 

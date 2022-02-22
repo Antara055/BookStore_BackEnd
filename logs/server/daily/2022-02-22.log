@@ -1,21 +1,5 @@
-info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T13:51:39.709Z"}
-info: Connected to the database. {"timestamp":"2022-02-21T13:51:39.757Z"}
-info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-21T13:52:02.873Z"}
-info: Connected to the database. {"timestamp":"2022-02-21T13:52:02.922Z"}
 info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T06:14:46.002Z"}
 info: Connected to the database. {"timestamp":"2022-02-22T06:14:46.057Z"}
-error: uncaughtException: swaggerDocs is not defined
-ReferenceError: swaggerDocs is not defined
-    at Object.<anonymous> (E:\CFP_BZ\book_store\src\/index.js:30:54)
-    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-    at Module._compile (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:136:24)
-    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-    at Object.newLoader [as .js] (E:\CFP_BZ\book_store\node_modules\pirates\lib\index.js:141:7)
-    at Module.load (internal/modules/cjs/loader.js:950:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
-    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
-    at Object.<anonymous> (E:\CFP_BZ\book_store\node_modules\@babel\node\lib\_babel-node.js:176:21)
-    at Module._compile (internal/modules/cjs/loader.js:1085:14) {"date":"Tue Feb 22 2022 11:51:19 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":59196},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18350600,"external":20574086,"heapTotal":157503488,"heapUsed":133947696,"rss":187785216},"pid":6260,"uid":null,"version":"v14.17.3"},"stack":"ReferenceError: swaggerDocs is not defined\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\src\\/index.js:30:54)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at Object.<anonymous> (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)","timestamp":"2022-02-22T06:21:20.200Z","trace":[{"column":54,"file":"E:\\CFP_BZ\\book_store\\src\\/index.js","function":null,"line":30,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"E:\\CFP_BZ\\book_store\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false}]}
 info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T06:30:50.854Z"}
 info: Connected to the database. {"timestamp":"2022-02-22T06:30:50.942Z"}
 info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T06:43:29.608Z"}
@@ -97,5 +81,3 @@ info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T0
 info: Connected to the database. {"timestamp":"2022-02-22T09:13:10.359Z"}
 info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T09:16:27.745Z"}
 info: Connected to the database. {"timestamp":"2022-02-22T09:16:27.806Z"}
-info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T09:17:28.655Z"}
-info: Connected to the database. {"timestamp":"2022-02-22T09:17:28.714Z"}

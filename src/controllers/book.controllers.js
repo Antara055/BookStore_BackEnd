@@ -83,11 +83,20 @@ export const priceHighToLowSort = async (req, res, next) => {
 export const searchBook = async (req, res, next) => {
   try {
     const data = await bookService.searchBook(req.params.title);
+    if(data.length==0){
+      res.status(HttpStatus.NOT_FOUND).json({
+        code: HttpStatus.NOT_FOUND,
+        data: data,
+        message: `book no found`
+      });
+    }
+    else{
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
         message: `Search result`
       });
+    }
     }
  catch (err) {
     next(err);
