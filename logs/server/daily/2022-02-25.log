@@ -1,0 +1,161 @@
+error: 
+    status - 500 
+    message - Error: Cart validation failed
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new ValidationError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\validation.js:27:5)
+    at model.Document.invalidate (E:\CFP_BZ\book_store\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (E:\CFP_BZ\book_store\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at EmbeddedDocument.$set (E:\CFP_BZ\book_store\node_modules\mongoose\lib\document.js:1349:12)
+    at EmbeddedDocument.$set (E:\CFP_BZ\book_store\node_modules\mongoose\lib\document.js:1058:16)
+    at EmbeddedDocument.Document (E:\CFP_BZ\book_store\node_modules\mongoose\lib\document.js:148:12)
+    at EmbeddedDocument [as constructor] (E:\CFP_BZ\book_store\node_modules\mongoose\lib\types\embedded.js:47:12) 
+    url - /api/v1/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T18:47:19.248Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property '0' of undefined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:8:45)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addToCart (E:\CFP_BZ\book_store\src\services\/cart.service.js:6:23) 
+    url - /api/v1/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T18:48:53.769Z"}
+error: 
+    status - 500 
+    message - Error: Cart validation failed
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new ValidationError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\validation.js:27:5)
+    at model.Document.invalidate (E:\CFP_BZ\book_store\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (E:\CFP_BZ\book_store\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at EmbeddedDocument.$set (E:\CFP_BZ\book_store\node_modules\mongoose\lib\document.js:1349:12)
+    at EmbeddedDocument.$set (E:\CFP_BZ\book_store\node_modules\mongoose\lib\document.js:1058:16)
+    at EmbeddedDocument.Document (E:\CFP_BZ\book_store\node_modules\mongoose\lib\document.js:148:12)
+    at EmbeddedDocument [as constructor] (E:\CFP_BZ\book_store\node_modules\mongoose\lib\types\embedded.js:47:12) 
+    url - /api/v1/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T18:49:13.949Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-25T05:29:02.303Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T05:29:02.604Z"}
+error: 
+    status - 500 
+    message - Error: Cart validation failed
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new ValidationError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\validation.js:27:5)
+    at model.Document.invalidate (E:\CFP_BZ\book_store\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (E:\CFP_BZ\book_store\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at EmbeddedDocument.$set (E:\CFP_BZ\book_store\node_modules\mongoose\lib\document.js:1349:12)
+    at EmbeddedDocument.$set (E:\CFP_BZ\book_store\node_modules\mongoose\lib\document.js:1058:16)
+    at EmbeddedDocument.Document (E:\CFP_BZ\book_store\node_modules\mongoose\lib\document.js:148:12)
+    at EmbeddedDocument [as constructor] (E:\CFP_BZ\book_store\node_modules\mongoose\lib\types\embedded.js:47:12) 
+    url - /api/v1/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-25T06:26:12.453Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-25T06:34:55.034Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T06:34:55.169Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-25T06:52:05.967Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T06:52:06.030Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-25T06:53:24.942Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T06:53:25.008Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property '0' of undefined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:8:45)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addToCart (E:\CFP_BZ\book_store\src\services\/cart.service.js:6:23) 
+    url - /api/v1/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-25T06:53:56.163Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-25T06:55:51.353Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T06:55:51.441Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property '0' of undefined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:60:37)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-25T06:56:11.789Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-25T06:57:09.545Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T06:57:09.727Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-25T06:57:32.948Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T06:57:33.041Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-25T06:57:52.716Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T06:57:52.775Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property '0' of undefined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:60:37)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-25T06:57:58.748Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-25T06:58:58.582Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T06:58:58.821Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-25T06:59:17.533Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T06:59:17.717Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-25T06:59:42.467Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T06:59:42.534Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-25T12:15:28.200Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-25T12:17:37.258Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-25T12:23:28.279Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-25T12:51:21.948Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T12:51:22.434Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-25T12:52:44.956Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T12:52:45.117Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-25T12:54:28.488Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T12:54:28.644Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-25T12:54:45.968Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T12:54:46.019Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-25T13:00:56.852Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:00:57.000Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMTc4ZmY4ZDlmZDkzMWE4ODZmM2E2YyIsImVtYWlsIjoiYW50YXJhNTAwQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjQ1Nzk5MzE1fQ.yAXKm3wIbU-iX0zyOzAxWbIxLiFAl-MX6Qd6_APju8k {"timestamp":"2022-02-25T14:28:35.850Z"}

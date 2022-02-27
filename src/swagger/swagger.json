@@ -460,51 +460,7 @@
                         "description": "Internal server error"
                     }
                 }
-            },
-            "delete": {
-                "tags": [
-                  ""
-                ],
-                "summary": "Delete book from wishlist",
-                "parameters": [
-                  {
-                    "in": "body",
-                    "name": "Delete Book",
-                    "required": true,
-                    "schema": {
-                      "type": "object",
-                      "properties": {
-                        "BookID": {
-                          "type": "string"
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "in": "header",
-                    "name": "token",
-                    "required": true,
-                    "schema": {
-                      "type": "object",
-                      "required": [
-                        "token"
-                      ],
-                      "properties": {
-                        "token": {
-                          "type": "string"
-                        }
-                      }
-                    }
-                  }
-                ],
-                "description": "remove book from wishlist",
-                "produces": "application/json",
-                "responses": {
-                  "200": {
-                    "description": "OK"
-                  }
-                }
-              }
+            }
         },
         "/wishlist/": {
             "get": {

@@ -4,7 +4,10 @@ import * as cartService from '../services/cart.service';
 //add items to cart
 export const addToCart = async (req, res, next) => {
     try {
-        const data = await cartService.addToCart(req);
+       // const cartUserId=req.body.data.id,
+        
+        console.log("controller data",req.body)
+        const data = await cartService.addToCart(req.body);
             res.status(HttpStatus.CREATED).json({
                 code: HttpStatus.CREATED,
                 data: data,

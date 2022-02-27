@@ -1,29 +1,22 @@
 import { Schema, model } from 'mongoose';
 
-const wishlishSchema = new Schema(
-  {
-    UserID:{
-      type:String
-  },
-  User_Email: {
+const wishlishSchema = new Schema({
+  UserID: {
     type: String
   },
-   BookID:{
-              type:String
-          },
-          BookName: {
-            type: String,
-          },
-          Price:{
-              type:Number
-          },
-          image: {
-            type: String
-          }
-  },
-  {
-    timestamps: true
-  }
-);
+  Book: [{
+    BookID: {
+      type: String
+    },
+    Prices: {
+      type: Number
+    },
+    isPurched: {
+      type: Boolean,
+      default: false
+    },
+  }]
+
+});
 
 export default model('WishList', wishlishSchema);

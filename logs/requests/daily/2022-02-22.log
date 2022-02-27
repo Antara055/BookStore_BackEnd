@@ -246,3 +246,27 @@ info: ::ffff:127.0.0.1 - - [22/Feb/2022:09:16:27 +0000] "GET /api-docs/swagger-u
 
 info: ::1 - - [22/Feb/2022:09:16:28 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
 
+info: ::1 - - [22/Feb/2022:09:17:33 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [22/Feb/2022:09:17:33 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [22/Feb/2022:09:17:33 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [22/Feb/2022:09:17:33 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 15712 "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [22/Feb/2022:09:17:33 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [22/Feb/2022:09:17:33 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:10:19:42 +0000] "POST /api/v1/users/registrationUser HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:10:19:42 +0000] "POST /api/v1/users/login HTTP/1.1" 200 356 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:10:19:43 +0000] "POST /api/v1/users/login HTTP/1.1" 200 356 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:10:21:38 +0000] "POST /api/v1/users/registrationUser HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:10:21:38 +0000] "POST /api/v1/users/login HTTP/1.1" 200 356 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:10:21:38 +0000] "POST /api/v1/users/login HTTP/1.1" 401 37 "-" "node-superagent/3.8.3"
+

@@ -7,6 +7,7 @@ export const addBook = async (req, res) => {
     title: req.title,
     image: req.image,
     author: req.author,
+    o_price: req.o_price,
     price: req.price,
     quantity: req.quantity,
     description: req.description,

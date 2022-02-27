@@ -1,0 +1,90 @@
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-27T05:43:17.999Z"}
+info: Connected to the database. {"timestamp":"2022-02-27T05:43:18.073Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-27T05:48:38.505Z"}
+info: Connected to the database. {"timestamp":"2022-02-27T05:48:38.577Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMTc4ZmY4ZDlmZDkzMWE4ODZmM2E2YyIsImVtYWlsIjoiYW50YXJhNTAwQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjQ1OTQyMjY1fQ.VhckxHgIc1CVaTqwa9-K4e54mkPu5wDuqTVjq15bvic {"timestamp":"2022-02-27T06:11:05.054Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-27T06:23:33.638Z"}
+info: Connected to the database. {"timestamp":"2022-02-27T06:23:33.694Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-27T06:27:44.231Z"}
+info: Connected to the database. {"timestamp":"2022-02-27T06:27:44.320Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-27T06:28:18.160Z"}
+info: Connected to the database. {"timestamp":"2022-02-27T06:28:18.213Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-27T06:33:50.412Z"}
+info: Connected to the database. {"timestamp":"2022-02-27T06:33:50.587Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-27T06:51:49.829Z"}
+info: Connected to the database. {"timestamp":"2022-02-27T06:51:49.889Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-27T07:00:50.147Z"}
+info: Connected to the database. {"timestamp":"2022-02-27T07:00:50.242Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-27T07:03:04.633Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-27T07:03:38.351Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-27T07:04:31.869Z"}
+info: Connected to the database. {"timestamp":"2022-02-27T07:04:31.930Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (E:\CFP_BZ\book_store\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\CFP_BZ\book_store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/wishlist 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-27T07:05:16.262Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-27T07:08:25.943Z"}
+info: Connected to the database. {"timestamp":"2022-02-27T07:08:25.999Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-27T07:11:23.423Z"}
+info: Connected to the database. {"timestamp":"2022-02-27T07:11:23.489Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-27T07:15:14.971Z"}
+info: Connected to the database. {"timestamp":"2022-02-27T07:15:15.035Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-27T07:19:24.176Z"}
+info: Connected to the database. {"timestamp":"2022-02-27T07:19:24.247Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-27T07:23:14.318Z"}
+info: Connected to the database. {"timestamp":"2022-02-27T07:23:14.378Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee3$ (E:\CFP_BZ\book_store\src\services\/wishlist.service.js:55:63)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeItems (E:\CFP_BZ\book_store\src\services\/wishlist.service.js:53:25) 
+    url - /api/v1/wishlist 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-27T07:23:15.831Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-27T07:23:52.766Z"}
+info: Connected to the database. {"timestamp":"2022-02-27T07:23:52.821Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-27T07:24:55.798Z"}
+info: Connected to the database. {"timestamp":"2022-02-27T07:24:55.910Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-27T07:25:46.824Z"}
+info: Connected to the database. {"timestamp":"2022-02-27T07:25:46.958Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-27T07:25:58.479Z"}
+info: Connected to the database. {"timestamp":"2022-02-27T07:25:58.536Z"}

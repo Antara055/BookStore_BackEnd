@@ -18,6 +18,9 @@ const bookSchema = new Schema(
         price:{
             type:Number
         },
+        o_price:{
+            type:Number
+        },
         description:{
             type:String
         },

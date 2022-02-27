@@ -270,3 +270,591 @@ info: ::1 - - [22/Feb/2022:09:17:33 +0000] "GET /api-docs/swagger-ui-standalone-
 
 info: ::1 - - [22/Feb/2022:09:17:33 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
 
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:10:19:42 +0000] "POST /api/v1/users/registrationUser HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:10:19:42 +0000] "POST /api/v1/users/login HTTP/1.1" 200 356 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:10:19:43 +0000] "POST /api/v1/users/login HTTP/1.1" 200 356 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 200 to equal 401
+AssertionError: expected 200 to equal 401
+    at Test.<anonymous> (E:\CFP_BZ\book_store\tests\integration\/user.test.js:79:42)
+    at Test.assert (E:\CFP_BZ\book_store\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\CFP_BZ\book_store\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Tue Feb 22 2022 15:49:43 GMT+0530 (India Standard Time)","error":{"actual":200,"expected":401,"message":"expected 200 to equal 401","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 200 to equal 401\n    at Test.<anonymous> (E:\\CFP_BZ\\book_store\\tests\\integration\\/user.test.js:79:42)\n    at Test.assert (E:\\CFP_BZ\\book_store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\CFP_BZ\\book_store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":73499},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\CFP_BZ\\book_store\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18433599,"external":20104404,"heapTotal":168067072,"heapUsed":142679912,"rss":199098368},"pid":7764,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 200 to equal 401\n    at Test.<anonymous> (E:\\CFP_BZ\\book_store\\tests\\integration\\/user.test.js:79:42)\n    at Test.assert (E:\\CFP_BZ\\book_store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\CFP_BZ\\book_store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","trace":[{"column":42,"file":"E:\\CFP_BZ\\book_store\\tests\\integration\\/user.test.js","function":null,"line":79,"method":null,"native":false},{"column":6,"file":"E:\\CFP_BZ\\book_store\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\CFP_BZ\\book_store\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:10:21:38 +0000] "POST /api/v1/users/registrationUser HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:10:21:38 +0000] "POST /api/v1/users/login HTTP/1.1" 200 356 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:10:21:38 +0000] "POST /api/v1/users/login HTTP/1.1" 401 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:02:09 +0000] "POST /api/v1/cart/ HTTP/1.1" 500 141 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:05:09 +0000] "POST /api/v1/cart/ HTTP/1.1" 500 141 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:07:12 +0000] "POST /api/v1/users/registrationAdmin HTTP/1.1" 201 335 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:08:04 +0000] "POST /api/v1/users/login HTTP/1.1" 200 365 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:13:41 +0000] "GET /api/v1/books HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:14:29 +0000] "GET /api/v1/books HTTP/1.1" 200 65 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:14:40 +0000] "POST /api/v1/books HTTP/1.1" 201 312 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:15:16 +0000] "POST /api/v1/books HTTP/1.1" 201 312 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:15:31 +0000] "POST /api/v1/books HTTP/1.1" 201 312 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:15:48 +0000] "POST /api/v1/books HTTP/1.1" 201 312 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:15:49 +0000] "POST /api/v1/books HTTP/1.1" 201 312 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:17:03 +0000] "POST /api/v1/cart/ HTTP/1.1" 500 141 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:17:34 +0000] "POST /api/v1/wishlist/:BookID HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:18:26 +0000] "POST /api/v1/wishlist HTTP/1.1" 201 329 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:20:02 +0000] "POST /api/v1/cart HTTP/1.1" 500 63 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:21:10 +0000] "POST /api/v1/cart HTTP/1.1" 500 156 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:22:33 +0000] "POST /api/v1/cart HTTP/1.1" 500 109 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:23:06 +0000] "POST /api/v1/cart HTTP/1.1" 500 75 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:26:51 +0000] "POST /api/v1/cart HTTP/1.1" 500 75 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2022:08:27:58 +0000] "POST /api/v1/cart HTTP/1.1" 500 171 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:06:10:27 +0000] "POST /api/v1/cart HTTP/1.1" 500 171 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:06:30:05 +0000] "POST /api/v1/cart HTTP/1.1" 500 171 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:06:35:11 +0000] "POST /api/v1/cart HTTP/1.1" 500 73 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:06:36:50 +0000] "POST /api/v1/cart HTTP/1.1" 500 73 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:06:38:20 +0000] "POST /api/v1/cart HTTP/1.1" 500 109 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:06:39:15 +0000] "POST /api/v1/cart HTTP/1.1" 500 109 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:10:20:30 +0000] "POST /api/v1/cart HTTP/1.1" 500 109 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:10:25:27 +0000] "POST /api/v1/cart HTTP/1.1" 500 109 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:10:28:50 +0000] "POST /api/v1/cart HTTP/1.1" 500 146 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:10:31:00 +0000] "POST /api/v1/cart HTTP/1.1" 500 146 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:10:31:51 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 620 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:10:32:28 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 57 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:10:32:35 +0000] "POST /api/v1/cart HTTP/1.1" 500 146 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:10:35:44 +0000] "POST /api/v1/cart HTTP/1.1" 500 146 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:10:37:09 +0000] "POST /api/v1/cart HTTP/1.1" 500 146 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:11:36:42 +0000] "POST /api/v1/cart HTTP/1.1" 500 146 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:11:42:45 +0000] "POST /api/v1/cart HTTP/1.1" 500 146 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:11:50:51 +0000] "POST /api/v1/cart HTTP/1.1" 500 146 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:11:53:23 +0000] "POST /api/v1/users/registrationUser HTTP/1.1" 201 334 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:11:53:54 +0000] "POST /api/v1/users/login HTTP/1.1" 200 363 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:11:55:18 +0000] "POST /api/v1/cart HTTP/1.1" 500 146 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:11:58:56 +0000] "POST /api/v1/cart HTTP/1.1" 500 146 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:12:05:15 +0000] "POST /api/v1/cart HTTP/1.1" 500 146 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:12:07:55 +0000] "POST /api/v1/cart HTTP/1.1" 500 146 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:12:09:25 +0000] "POST /api/v1/cart HTTP/1.1" 500 146 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:12:23:13 +0000] "POST /api/v1/cart HTTP/1.1" 500 72 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:12:25:49 +0000] "POST /api/v1/cart HTTP/1.1" 500 72 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:12:27:15 +0000] "POST /api/v1/cart HTTP/1.1" 500 146 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:12:31:04 +0000] "POST /api/v1/cart HTTP/1.1" 500 167 "-" "Thunder Client (https://www.thunderclient.com)"
+
+error: uncaughtException: E:\CFP_BZ\book_store\src\services\cart.service.js: Unexpected token (64:10)
+
+[0m [90m 62 |[39m         [90m//Object[39m[0m
+[0m [90m 63 |[39m         [36mconst[39m data [33m=[39m {[0m
+[0m[31m[1m>[22m[39m[90m 64 |[39m           (req[33m.[39mdata[33m.[39m[33mBook[39m)[33m.[39mmap()[33m=>[39m{[0m
+[0m [90m    |[39m           [31m[1m^[22m[39m[0m
+[0m [90m 65 |[39m             [0m
+[0m [90m 66 |[39m           }[0m
+[0m [90m 67 |[39m         [33mUserID[39m[33m:[39m req[33m.[39mdata[33m.[39mid[33m,[39m[0m
+SyntaxError: Unexpected token (64:10)
+    at Parser._raise (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.unexpected (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\util.js:174:16)
+    at Parser.parsePropertyName (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\expression.js:2306:24)
+    at Parser.parsePropertyDefinition (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\expression.js:2053:22)
+    at Parser.parseObjectLike (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\expression.js:1958:21)
+    at Parser.parseExprAtom (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\expression.js:1150:21) {"date":"Thu Feb 24 2022 18:10:33 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":10,"index":2324,"line":64},"pos":2324,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6682},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18306068,"external":20529594,"heapTotal":165072896,"heapUsed":144911936,"rss":195497984},"pid":7476,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Unexpected token (64:10)\n    at Parser._raise (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.unexpected (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n    at Parser.parsePropertyName (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2306:24)\n    at Parser.parsePropertyDefinition (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2053:22)\n    at Parser.parseObjectLike (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1958:21)\n    at Parser.parseExprAtom (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1150:21)","trace":[{"column":45,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":16,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.unexpected","line":174,"method":"unexpected","native":false},{"column":24,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parsePropertyName","line":2306,"method":"parsePropertyName","native":false},{"column":22,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parsePropertyDefinition","line":2053,"method":"parsePropertyDefinition","native":false},{"column":21,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseObjectLike","line":1958,"method":"parseObjectLike","native":false},{"column":21,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprAtom","line":1150,"method":"parseExprAtom","native":false}]}
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:12:41:29 +0000] "POST /api/v1/cart HTTP/1.1" 500 72 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:12:44:13 +0000] "POST /api/v1/cart HTTP/1.1" 500 72 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:12:46:02 +0000] "POST /api/v1/cart HTTP/1.1" 500 72 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:12:46:40 +0000] "POST /api/v1/cart HTTP/1.1" 500 72 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:12:47:44 +0000] "POST /api/v1/cart HTTP/1.1" 500 72 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:12:49:07 +0000] "POST /api/v1/cart HTTP/1.1" 500 146 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:12:50:34 +0000] "POST /api/v1/cart HTTP/1.1" 500 146 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:12:52:13 +0000] "POST /api/v1/cart HTTP/1.1" 500 146 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:12:56:06 +0000] "POST /api/v1/cart HTTP/1.1" 500 146 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:12:57:21 +0000] "POST /api/v1/cart HTTP/1.1" 500 146 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:12:58:00 +0000] "POST /api/v1/cart HTTP/1.1" 500 146 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:12:59:19 +0000] "POST /api/v1/cart HTTP/1.1" 500 146 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [24/Feb/2022:13:48:51 +0000] "POST /api/v1/users/registrationUser HTTP/1.1" 400 55 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [24/Feb/2022:13:56:22 +0000] "POST /api/v1/users/registrationUser HTTP/1.1" 400 55 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:13:57:54 +0000] "POST /api/v1/users/registrationUser HTTP/1.1" 400 55 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [24/Feb/2022:13:59:50 +0000] "POST /api/v1/users/registrationUser HTTP/1.1" 400 55 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:14:00:11 +0000] "POST /api/v1/users/registrationUser HTTP/1.1" 400 55 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:14:01:15 +0000] "POST /api/v1/users/registrationUser HTTP/1.1" 400 55 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:14:02:12 +0000] "POST /api/v1/users/registrationUser HTTP/1.1" 400 82 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:14:02:26 +0000] "POST /api/v1/users/registrationUser HTTP/1.1" 201 334 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [24/Feb/2022:14:02:32 +0000] "POST /api/v1/users/registrationUser HTTP/1.1" 201 347 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [24/Feb/2022:14:03:15 +0000] "POST /api/v1/users/login HTTP/1.1" 401 37 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [24/Feb/2022:14:05:47 +0000] "POST /api/v1/users/login HTTP/1.1" 401 37 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:14:07:36 +0000] "POST /api/v1/users/login HTTP/1.1" 200 363 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:14:07:57 +0000] "POST /api/v1/users/login HTTP/1.1" 200 370 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [24/Feb/2022:14:08:42 +0000] "POST /api/v1/users/login HTTP/1.1" 200 370 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [24/Feb/2022:14:11:05 +0000] "POST /api/v1/users/login HTTP/1.1" 200 370 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [24/Feb/2022:14:14:38 +0000] "POST /api/v1/users/login HTTP/1.1" 200 370 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [24/Feb/2022:14:15:47 +0000] "POST /api/v1/users/login HTTP/1.1" 200 370 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:17:30:30 +0000] "POST /api/v1/users/registrationAdmin HTTP/1.1" 201 335 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:17:31:30 +0000] "POST /api/v1/users/login HTTP/1.1" 200 370 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:17:32:32 +0000] "GET /api/v1/books/ HTTP/1.1" 200 1092 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [24/Feb/2022:18:05:24 +0000] "GET /api/v1/books/ HTTP/1.1" 200 1092 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [24/Feb/2022:18:09:18 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [24/Feb/2022:18:10:18 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [24/Feb/2022:18:13:11 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [24/Feb/2022:18:14:45 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:18:18:37 +0000] "GET /api/v1/books/newArr HTTP/1.1" 200 1101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:18:19:26 +0000] "GET /api/v1/books/newArr HTTP/1.1" 200 1101 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:18:23:54 +0000] "GET /api/v1/books/priceLtoH HTTP/1.1" 200 1117 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [24/Feb/2022:18:25:01 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [24/Feb/2022:18:28:20 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [24/Feb/2022:18:28:30 +0000] "GET /api/v1/books/priceLtoH HTTP/1.1" 200 1117 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [24/Feb/2022:18:28:33 +0000] "GET /api/v1/books/priceHtoL HTTP/1.1" 200 1117 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [24/Feb/2022:18:28:37 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [24/Feb/2022:18:28:46 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [24/Feb/2022:18:28:55 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [24/Feb/2022:18:29:59 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [24/Feb/2022:18:30:04 +0000] "GET /api/v1/books/newArr HTTP/1.1" 200 1101 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [24/Feb/2022:18:30:14 +0000] "GET /api/v1/books/priceLtoH HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [24/Feb/2022:18:31:42 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [24/Feb/2022:18:33:34 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [24/Feb/2022:18:43:02 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:18:47:19 +0000] "POST /api/v1/cart HTTP/1.1" 500 146 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:18:48:53 +0000] "POST /api/v1/cart HTTP/1.1" 500 72 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [24/Feb/2022:18:49:13 +0000] "POST /api/v1/cart HTTP/1.1" 500 146 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [25/Feb/2022:05:50:38 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:05:55:15 +0000] "GET /api/v1/books/priceHtoL HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:05:55:21 +0000] "GET /api/v1/books/priceLtoH HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:05:55:25 +0000] "GET /api/v1/books/newArr HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Feb/2022:06:26:12 +0000] "POST /api/v1/cart HTTP/1.1" 500 146 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [25/Feb/2022:06:53:56 +0000] "POST /api/v1/cart HTTP/1.1" 500 72 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [25/Feb/2022:06:56:11 +0000] "POST /api/v1/cart HTTP/1.1" 500 72 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [25/Feb/2022:06:57:58 +0000] "POST /api/v1/cart HTTP/1.1" 500 72 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [25/Feb/2022:06:59:49 +0000] "POST /api/v1/cart HTTP/1.1" 201 235 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [25/Feb/2022:07:00:09 +0000] "POST /api/v1/cart HTTP/1.1" 201 235 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [25/Feb/2022:09:17:04 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:09:20:00 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:09:25:30 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:09:26:13 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:09:26:58 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:09:27:45 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:09:28:29 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:09:28:36 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:09:29:40 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:09:30:00 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:09:32:30 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:09:33:56 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:09:35:11 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:09:40:41 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:09:43:14 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:09:46:23 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:09:48:14 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:09:48:30 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:09:50:50 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:09:51:10 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:09:53:34 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:09:59:33 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:00:57 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:01:28 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:05:14 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:08:44 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:10:41 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:12:06 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:12:39 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:12:58 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:13:29 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:14:57 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:15:44 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:16:24 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:16:36 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:16:53 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:17:18 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:17:53 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:18:59 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:20:34 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:22:19 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:23:34 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:24:31 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:25:25 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:28:22 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:29:31 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:30:10 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:31:24 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:38:04 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:10:57:08 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:11:00:20 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:11:05:46 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:11:07:23 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:11:08:37 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:11:09:10 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:11:09:58 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:11:12:34 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:11:13:12 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:11:17:07 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:11:18:31 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:11:18:32 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:11:22:25 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:11:25:24 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:11:28:46 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:11:29:04 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:11:30:15 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:11:31:08 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:11:31:23 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:11:31:30 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:11:33:31 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:11:36:01 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:11:40:00 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:11:42:39 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Feb/2022:12:06:31 +0000] "POST /api/v1/wishlist HTTP/1.1" 400 62 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [25/Feb/2022:12:07:56 +0000] "POST /api/v1/wishlist HTTP/1.1" 201 329 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [25/Feb/2022:12:13:47 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:12:15:14 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:12:15:29 +0000] "POST /api/v1/wishlist HTTP/1.1" 400 56 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:12:17:13 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:12:17:37 +0000] "POST /api/v1/wishlist HTTP/1.1" 400 56 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:12:23:20 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:12:23:28 +0000] "POST /api/v1/wishlist HTTP/1.1" 400 56 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:12:27:01 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:12:27:06 +0000] "POST /api/v1/wishlist HTTP/1.1" 201 329 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:12:27:28 +0000] "POST /api/v1/wishlist HTTP/1.1" 400 62 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:12:28:00 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:12:28:02 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:12:28:05 +0000] "POST /api/v1/wishlist HTTP/1.1" 201 329 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Feb/2022:12:34:28 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 329 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [25/Feb/2022:12:35:42 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 329 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [25/Feb/2022:12:37:45 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 329 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [25/Feb/2022:12:39:02 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:12:46:03 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Feb/2022:12:56:01 +0000] "POST /api/v1/books HTTP/1.1" 201 314 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [25/Feb/2022:12:56:40 +0000] "POST /api/v1/books HTTP/1.1" 201 314 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [25/Feb/2022:12:57:46 +0000] "POST /api/v1/books HTTP/1.1" 201 316 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [25/Feb/2022:12:58:19 +0000] "POST /api/v1/books HTTP/1.1" 201 314 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [25/Feb/2022:12:58:32 +0000] "GET /api/v1/books/ HTTP/1.1" 200 1102 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [25/Feb/2022:13:01:17 +0000] "POST /api/v1/books HTTP/1.1" 201 328 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [25/Feb/2022:13:01:50 +0000] "POST /api/v1/books HTTP/1.1" 201 330 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [25/Feb/2022:13:02:43 +0000] "POST /api/v1/books HTTP/1.1" 201 330 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [25/Feb/2022:13:03:18 +0000] "POST /api/v1/books HTTP/1.1" 201 330 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [25/Feb/2022:13:09:04 +0000] "GET /api/v1/books/ HTTP/1.1" 200 1162 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:13:09:18 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:13:09:38 +0000] "POST /api/v1/wishlist HTTP/1.1" 201 329 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:13:11:24 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:13:11:54 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:13:18:41 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:13:19:08 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:13:23:34 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:13:24:03 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:14:09:02 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:14:14:15 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:14:28:36 +0000] "POST /api/v1/users/login HTTP/1.1" 200 370 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:14:28:36 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:14:28:48 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Feb/2022:14:40:57 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 57 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::1 - - [25/Feb/2022:14:41:30 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::1 - - [25/Feb/2022:14:41:41 +0000] "GET /api/v1/books/ HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [26/Feb/2022:09:43:29 +0000] "POST /api/v1/cart HTTP/1.1" 500 74 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [26/Feb/2022:09:44:54 +0000] "POST /api/v1/cart HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [26/Feb/2022:09:55:21 +0000] "POST /api/v1/cart HTTP/1.1" 201 245 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [26/Feb/2022:09:55:49 +0000] "POST /api/v1/cart HTTP/1.1" 201 245 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [26/Feb/2022:09:58:01 +0000] "POST /api/v1/cart HTTP/1.1" 201 245 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [26/Feb/2022:09:59:16 +0000] "POST /api/v1/cart HTTP/1.1" 500 59 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [26/Feb/2022:10:00:14 +0000] "POST /api/v1/cart HTTP/1.1" 201 245 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [26/Feb/2022:10:00:22 +0000] "POST /api/v1/cart HTTP/1.1" 500 68 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [26/Feb/2022:10:07:56 +0000] "POST /api/v1/cart HTTP/1.1" 201 245 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [26/Feb/2022:10:08:32 +0000] "POST /api/v1/cart HTTP/1.1" 201 245 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [26/Feb/2022:10:10:05 +0000] "POST /api/v1/cart HTTP/1.1" 201 245 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [26/Feb/2022:10:10:25 +0000] "POST /api/v1/cart HTTP/1.1" 201 325 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [27/Feb/2022:06:11:05 +0000] "POST /api/v1/users/login HTTP/1.1" 200 370 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [27/Feb/2022:06:13:31 +0000] "POST /api/v1/cart HTTP/1.1" 201 245 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [27/Feb/2022:06:45:13 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 57 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [27/Feb/2022:06:45:41 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 251 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [27/Feb/2022:06:48:03 +0000] "POST /api/v1/cart HTTP/1.1" 201 245 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [27/Feb/2022:06:48:46 +0000] "POST /api/v1/cart HTTP/1.1" 201 245 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [27/Feb/2022:06:49:05 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 331 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [27/Feb/2022:06:51:59 +0000] "POST /api/v1/cart HTTP/1.1" 201 258 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [27/Feb/2022:06:52:05 +0000] "POST /api/v1/cart HTTP/1.1" 201 258 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [27/Feb/2022:07:03:04 +0000] "POST /api/v1/wishlist HTTP/1.1" 500 141 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [27/Feb/2022:07:03:38 +0000] "POST /api/v1/wishlist HTTP/1.1" 500 141 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [27/Feb/2022:07:05:16 +0000] "POST /api/v1/wishlist HTTP/1.1" 500 141 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [27/Feb/2022:07:08:29 +0000] "POST /api/v1/wishlist HTTP/1.1" 201 251 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [27/Feb/2022:07:08:32 +0000] "POST /api/v1/wishlist HTTP/1.1" 400 62 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [27/Feb/2022:07:08:41 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 251 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [27/Feb/2022:07:11:44 +0000] "DELETE /api/v1/wishlist HTTP/1.1" 202 90 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [27/Feb/2022:07:12:54 +0000] "DELETE /api/v1/wishlist HTTP/1.1" 202 90 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [27/Feb/2022:07:15:17 +0000] "DELETE /api/v1/wishlist HTTP/1.1" 202 63 "-" "Thunder Client (https://www.thunderclient.com)"
+
+error: uncaughtException: E:\CFP_BZ\book_store\src\services\wishlist.service.js: Unexpected token, expected "," (55:55)
+
+[0m [90m 53 |[39m [36mexport[39m [36mconst[39m removeItems [33m=[39m [36masync[39m (req) [33m=>[39m {[0m
+[0m [90m 54 |[39m     console[33m.[39mlog(req)[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 55 |[39m     [36mconst[39m data [33m=[39m [36mawait[39m [33mWishList[39m[33m.[39mfindOneAndDelete({ [33mBook[39m[33m.[39m[33mBookID[39m[33m:[39m req[33m.[39m[33mBookID[39m })[0m
+[0m [90m    |[39m                                                        [31m[1m^[22m[39m[0m
+[0m [90m 56 |[39m     [36mreturn[39m data[33m;[39m[0m
+[0m [90m 57 |[39m }[33m;[39m[0m
+SyntaxError: Unexpected token, expected "," (55:55)
+    at Parser._raise (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.unexpected (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\util.js:174:16)
+    at Parser.expect (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\util.js:150:28)
+    at Parser.parseObjectLike (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\expression.js:1947:14)
+    at Parser.parseExprAtom (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\expression.js:1150:21)
+    at Parser.parseExprSubscripts (E:\CFP_BZ\book_store\node_modules\@babel\parser\src\parser\expression.js:682:23) {"date":"Sun Feb 27 2022 12:46:45 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":55,"index":1547,"line":55},"pos":1547,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":145682},"process":{"argv":["node","E:\\CFP_BZ\\book_store\\src\\index.js"],"cwd":"E:\\CFP_BZ\\book_store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18306270,"external":20529796,"heapTotal":168267776,"heapUsed":149261336,"rss":199237632},"pid":3832,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Unexpected token, expected \",\" (55:55)\n    at Parser._raise (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.unexpected (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n    at Parser.expect (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\util.js:150:28)\n    at Parser.parseObjectLike (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1947:14)\n    at Parser.parseExprAtom (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1150:21)\n    at Parser.parseExprSubscripts (E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\expression.js:682:23)","trace":[{"column":45,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":16,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.unexpected","line":174,"method":"unexpected","native":false},{"column":28,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.expect","line":150,"method":"expect","native":false},{"column":14,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseObjectLike","line":1947,"method":"parseObjectLike","native":false},{"column":21,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprAtom","line":1150,"method":"parseExprAtom","native":false},{"column":23,"file":"E:\\CFP_BZ\\book_store\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":682,"method":"parseExprSubscripts","native":false}]}
+info: ::ffff:127.0.0.1 - - [27/Feb/2022:07:23:15 +0000] "DELETE /api/v1/wishlist HTTP/1.1" 500 54 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [27/Feb/2022:07:23:54 +0000] "DELETE /api/v1/wishlist HTTP/1.1" 202 63 "-" "Thunder Client (https://www.thunderclient.com)"
+

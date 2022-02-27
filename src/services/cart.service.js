@@ -1,57 +1,61 @@
 import Cart from '../models/cart.model'
 import Book from '../models/book.model'
+import logger from '../config/logger'
 
 //add to cart
-export const addToCart = async (req, res) => {
-    const Book_Available = await Book.findOne({
-        _id: req.body.BookID
-    })
-    const user_Active_Cart = await Cart.findOne({
-        UserID: req.body.data.id
-    });
-
-    if (Book_Available) {
-        if (!user_Active_Cart) {
-            const NewCart = new Cart({
-                UserID: req.body.data.id,
-                BookID: req.body.BookID,
-                Quantity: req.body.Quantity,
-                BookName: Book_Available.title,
-                Price: Book_Available.price,
-                TotalAmount: Book_Available.price * req.body.Quantity
-            });
-            return await NewCart.save()
+export const addToCart= async(req,res)=>{
+  const bookData = await Book.findById({ _id: req.BookID });
+  const avl_quantity=bookData.quantity;
+  const extng_cart = await Cart.findOne({UserID:req.data.id})
+  if(extng_cart){
+    const extng_book=extng_cart.Book.find(bookInCart => bookInCart.BookID == req.BookID)
+      if(extng_book){
+        extng_book.Quantity += 1;
+        extng_cart.TotalAmount=extng_cart.TotalAmount+bookData.price;
+        const updateCart= await Cart.findByIdAndUpdate({
+          _id: extng_cart._id
+      }, {
+          Book: extng_cart.Book,
+          TotalAmount: extng_cart.TotalAmount
+      }).exec();
+      updateCart, { upsert: true }
+      return updateCart;
+      } else{
+        bookData.quantity=1;
+        const newBook={
+          BookId:bookData._id,
+          Quantity:bookData.quantity,
+          Prices:bookData.price
         }
-        else {
-            const previous_addedBook = await Cart.findOne({
-                BookID: req.body.BookID
-            });
-            if (!previous_addedBook) {
-                const NWishList = new Cart({
-                    UserID: req.body.data.id,
-                    BookID: req.body.BookID,
-                    Quantity: req.body.Quantity,
-                    BookName: Book_Available.title,
-                    Price: Book_Available.price,
-                    TotalAmount: Book_Available.price * req.body.Quantity
-                });
-                return await NWishList.save()
-            }
-            else {
-                const cartdata = {
-                    UserID: req.body.data.id,
-                    BookID: req.body.BookID,
-                    Quantity: previous_addedBook.Quantity + req.body.Quantity,
-                    BookName: Book_Available.title,
-                    Price: Book_Available.price,
-                    TotalAmount: previous_addedBook.TotalAmount + (Book_Available.price * req.body.Quantity)
-                }
-                await Cart.findByIdAndUpdate(user_Active_Cart._id, cartdata, { new: true })
-
-            }
-        }
+        extng_cart.Book.push(newBook)
+        const cart = await Cart.findByIdAndUpdate({
+          _id: extng_cart._id
+      }, {
+          $set: {
+            Book:extng_cart.Book,
+            TotalAmount: extng_cart.TotalAmount + bookData.quantity * bookData.price,
+          },
+      });
+      cart, {
+          new: true
+      }
+      return cart;
     }
-}
+    }else{
+      bookData.quantity=1;
+      let userCart = new Cart({
+        "UserID": req.data.id,
+        "Book": {
+            BookID: bookData._id,
+            Quantity: bookData.quantity,
+            PriceS: bookData.price,
+        },
+        "TotalAmount": bookData.quantity * bookData.price,
+    })
+    const newCart = await userCart.save();
+    return newCart;
+    }
+  }
 
 
 //get all cart item

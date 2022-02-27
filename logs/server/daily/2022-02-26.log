@@ -1,0 +1,70 @@
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-26T09:43:07.465Z"}
+info: Connected to the database. {"timestamp":"2022-02-26T09:43:07.671Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'quantity' of null
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:8:31)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-26T09:43:29.210Z"}
+error: 
+    status - 500 
+    message - ReferenceError: cartData is not defined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:48:19)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-26T09:44:54.439Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-26T09:55:10.422Z"}
+info: Connected to the database. {"timestamp":"2022-02-26T09:55:10.500Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-26T09:57:36.872Z"}
+info: Connected to the database. {"timestamp":"2022-02-26T09:57:36.994Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-26T09:57:59.548Z"}
+info: Connected to the database. {"timestamp":"2022-02-26T09:57:59.630Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-26T09:59:09.674Z"}
+info: Connected to the database. {"timestamp":"2022-02-26T09:59:09.744Z"}
+error: 
+    status - 500 
+    message - ReferenceError: checkCart is not defined
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:12:11)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-26T09:59:15.990Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-26T10:00:07.769Z"}
+info: Connected to the database. {"timestamp":"2022-02-26T10:00:07.970Z"}
+error: 
+    status - 500 
+    message - TypeError: extng_cart.find is not a function
+    at _callee$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:12:33)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-26T10:00:22.630Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-26T10:07:53.021Z"}
+info: Connected to the database. {"timestamp":"2022-02-26T10:07:53.137Z"}

@@ -81,3 +81,19 @@ info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T0
 info: Connected to the database. {"timestamp":"2022-02-22T09:13:10.359Z"}
 info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T09:16:27.745Z"}
 info: Connected to the database. {"timestamp":"2022-02-22T09:16:27.806Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T09:17:28.655Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T09:17:28.714Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T10:19:42.193Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T10:19:42.258Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMTRiOGJlZGY5MTZkMWU1NGE3ZWNjMCIsImVtYWlsIjoiYW51QGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjQ1NTI1MTgyfQ.A8b_9kscxcm7ce1IgX9zP_xn4lStEEaB_UFtt3lXQf4 {"timestamp":"2022-02-22T10:19:42.820Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMTRiOGJlZGY5MTZkMWU1NGE3ZWNjMCIsImVtYWlsIjoiYW51QGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjQ1NTI1MTgzfQ.lYh2i2Kv7fvDDviy4bG4cePqmwIW2PVmx_diOXEfCX8 {"timestamp":"2022-02-22T10:19:43.002Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T10:21:38.014Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T10:21:38.082Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMTRiOTMyYzA3ZDQ1MTY4ODYzMTAxMiIsImVtYWlsIjoiYW51QGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjQ1NTI1Mjk4fQ.6dSC189mmkuCmZms5iKcrWbYMkCWL6JtoEYfj8N4Dho {"timestamp":"2022-02-22T10:21:38.553Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T10:21:38.723Z"}

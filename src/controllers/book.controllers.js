@@ -9,6 +9,7 @@ export const Addbook = async (req, res, next) => {
       image: req.file.path,
       author: req.body.author,
       price: req.body.price,
+      o_price: req.body.o_price,
       quantity: req.body.quantity,
       description: req.body.description,
       year: req.body.year

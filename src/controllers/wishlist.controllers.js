@@ -4,8 +4,8 @@ import * as wishlistService from '../services/wishlist.service'
 
 export const AddToWishlist = async (req, res, next) => {
   try {
-    const data = await wishlistService.AddToWishlist(req);
-    if (data === 'Cannot add to wishlist') {
+    const data = await wishlistService.AddToWishlist(req.body);
+    if (data === 'Book is already in wishlist') {
       res.status(HttpStatus.BAD_REQUEST).json({
         code: HttpStatus.BAD_REQUEST,
         message: `The Book is already in your wishlist.`
@@ -37,16 +37,3 @@ export const fetchWishList = async (req, res, next) => {
   }
 }
 
-//remove wishlist items
-export const removeItem = async(req, res, next) => {
-  try {
-      const data = await wishlistService.removeItems(req.body);
-      res.status(HttpStatus.ACCEPTED).json({
-          code: HttpStatus.ACCEPTED,
-          data: data,
-          message: 'Book removed from wishlist'
-      });
-  } catch (error) {
-      next(error);
-  }
-};
