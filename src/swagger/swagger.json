@@ -1,0 +1,562 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Bookstore Backened",
+        "description": "This documentation guides the user about the APIs availabe in the system.",
+        "version": "1.1.0"
+    },
+    "host": "localhost:2000",
+    "basePath": "/api/v1/",
+    "schemes": [
+        "http"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/users/registrationUser": {
+            "post": {
+                "tags": [
+                    ""
+                ],
+                "summary": "Register a user.",
+                "description": "Registration  user",
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "Register Data",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/UserRegistration"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Created"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/users/registrationAdmin": {
+            "post": {
+                "tags": [
+                    ""
+                ],
+                "summary": "Register Adnin",
+                "description": "Registration admin",
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "Register Data",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/AdminRegistration"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Created"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/users/login": {
+            "post": {
+                "tags": [
+                    ""
+                ],
+                "summary": "Login a user.",
+                "description": "Log in  user",
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "Log in Data",
+                        "required": false,
+                        "schema": {
+                            "$ref": "#/definitions/Login"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        
+        "/books": {
+            "post": {
+                "tags": [
+                    ""
+                ],
+                "summary": "Add a book",
+                "parameters": [
+                    {
+                        "in": "formData",
+                        "name": "title",
+                        "description": "Adding Book title ",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "in": "formData",
+                        "name": "author",
+                        "description": "Adding Book author ",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "image",
+                        "in": "formData",
+                        "description": "file to upload",
+                        "required": false,
+                        "type": "file"
+                    },
+                    {
+                        "in": "formData",
+                        "name": "price",
+                        "description": "Adding Book price",
+                        "required": false,
+                        "type": "number"
+                    },
+                    {
+                        "in": "formData",
+                        "name": "quantity",
+                        "description": "Adding Book quantity",
+                        "required": false,
+                        "type": "number"
+                    },
+                    {
+                        "in": "formData",
+                        "name": "description",
+                        "description": "Adding Book description",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "in": "formData",
+                        "name": "year",
+                        "description": "Adding Book year",
+                        "required": false,
+                        "type": "number"
+                    },
+                    {
+                        "in": "header",
+                        "name": "token",
+                        "required": true,
+                        "schema": {
+                            "type": "object",
+                            "required": [
+                                "token"
+                            ],
+                            "properties": {
+                                "token": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "description": "Adding new book",
+                "produces": "application/json",
+                "responses": {
+                    "201": {
+                        "description": "Created"
+                    }
+                }
+            }
+        },
+        "/books/": {
+            "get": {
+                "tags": [
+                    ""
+                ],
+                "summary": "get all books.",
+                "parameters": [
+                    {
+                        "in": "header",
+                        "name": "token",
+                        "required": true,
+                        "schema": {
+                            "type": "object",
+                            "required": [
+                                "token"
+                            ],
+                            "properties": {
+                                "token": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "description": " get all books",
+                "produces": "application/json",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/books/newArr": {
+            "get": {
+                "tags": [
+                    ""
+                ],
+                "summary": "get books which are newly added",
+                "parameters": [
+                    {
+                        "in": "header",
+                        "name": "token",
+                        "required": true,
+                        "schema": {
+                            "type": "object",
+                            "required": [
+                                "token"
+                            ],
+                            "properties": {
+                                "token": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "description": " get books which are recently added",
+                "produces": "application/json",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/books/priceHtoL": {
+            "get": {
+                "tags": [
+                    ""
+                ],
+                "summary": "get books according to price(high to low)",
+                "parameters": [
+                    {
+                        "in": "header",
+                        "name": "token",
+                        "required": true,
+                        "schema": {
+                            "type": "object",
+                            "required": [
+                                "token"
+                            ],
+                            "properties": {
+                                "token": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "description": "get books according to price(high to low)",
+                "produces": "application/json",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/books/priceLtoH": {
+            "get": {
+                "tags": [
+                    ""
+                ],
+                "summary": "get books according to price(low to high)",
+                "parameters": [
+                    {
+                        "in": "header",
+                        "name": "token",
+                        "required": true,
+                        "schema": {
+                            "type": "object",
+                            "required": [
+                                "token"
+                            ],
+                            "properties": {
+                                "token": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "description": "get books according to price(low to high)",
+                "produces": "application/json",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/books/{title}": {
+            "get": {
+                "tags": [
+                    ""
+                ],
+                "summary": "get book according to search",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "title",
+                        "required": true,
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "title": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "in": "header",
+                        "name": "token",
+                        "required": true,
+                        "schema": {
+                            "type": "object",
+                            "required": [
+                                "token"
+                            ],
+                            "properties": {
+                                "token": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "description": "get book according to search",
+                "produces": "application/json",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/cart": {
+            "post": {
+                "tags": [
+                    ""
+                ],
+                "summary": "Add book to cart",
+                "description": "Add book to cart",
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "Cart Data",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/Cart"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Created"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/cart/": {
+            "get": {
+                "tags": [
+                    ""
+                ],
+                "summary": "get all cart books.",
+                "parameters": [
+                    {
+                        "in": "header",
+                        "name": "token",
+                        "required": true,
+                        "schema": {
+                            "type": "object",
+                            "required": [
+                                "token"
+                            ],
+                            "properties": {
+                                "token": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "description": " get all cart books",
+                "produces": "application/json",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        
+        "/wishlist": {
+            "post": {
+                "tags": [
+                    ""
+                ],
+                "summary": "Add book to wishlist",
+                "description": "Add book to wishlist",
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "Wishlist Data",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/Wishlist"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Created"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/wishlist/": {
+            "get": {
+                "tags": [
+                    ""
+                ],
+                "summary": "get all wishlist books.",
+                "parameters": [
+                    {
+                        "in": "header",
+                        "name": "token",
+                        "required": true,
+                        "schema": {
+                            "type": "object",
+                            "required": [
+                                "token"
+                            ],
+                            "properties": {
+                                "token": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "description": " get all wishlist items",
+                "produces": "application/json",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        }
+        
+    },
+    "definitions": {
+        "UserRegistration": {
+            "type": "object",
+            "properties": {
+                "firstName": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                }
+            }
+        },
+        "AdminRegistration": {
+            "properties": {
+                "firstName": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                }
+            }
+        },
+        "Login": {
+            "properties": {
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                }
+            }
+        },
+        "Cart":{
+            "properties": {
+                "BookID": {
+                    "type": "string"
+                },
+                "Quantity": {
+                    "type": "Number"
+                }
+            }
+        },
+        "Wishlist":{
+            "properties": {
+                "BookID": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

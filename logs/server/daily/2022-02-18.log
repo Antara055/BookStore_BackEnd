@@ -1,0 +1,95 @@
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T18:49:19.944Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T18:49:20.437Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T18:55:04.791Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T18:55:04.851Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T18:57:55.291Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T19:00:26.907Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T19:01:53.345Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T19:01:53.412Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T19:03:02.796Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T19:03:02.953Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 68
+    at JSON.parse (<anonymous>)
+    at parse (E:\CFP_BZ\book_store\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\CFP_BZ\book_store\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (E:\CFP_BZ\book_store\node_modules\raw-body\index.js:224:16)
+    at done (E:\CFP_BZ\book_store\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (E:\CFP_BZ\book_store\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:387:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/cart/addCartItem 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T19:04:21.023Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/getCartItem 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-17T19:08:05.638Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/getCartItem 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-17T19:08:07.637Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/getCartItem 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-17T19:08:12.371Z"}
+error: 
+    status - 500 
+    message - TypeError: cartService.getCartItems is not a function
+    at _callee2$ (E:\CFP_BZ\book_store\src\controllers\/cart.controller.js:21:40)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getCartItem (E:\CFP_BZ\book_store\src\controllers\/cart.controller.js:19:25) 
+    url - /api/v1/cart/getCartItem 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T19:08:50.627Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T19:10:35.901Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T19:10:35.969Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T19:17:00.062Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T19:17:00.135Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T19:17:57.879Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T19:17:57.941Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at _callee2$ (E:\CFP_BZ\book_store\src\services\/cart.service.js:23:20)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/cart/getCartItem 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T19:18:04.473Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-17T19:26:26.707Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T19:26:26.824Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-18T06:15:25.683Z"}
+info: Connected to the database. {"timestamp":"2022-02-18T06:15:25.745Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-18T06:26:18.694Z"}
+info: Connected to the database. {"timestamp":"2022-02-18T06:26:18.757Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-18T07:04:07.529Z"}
+info: Connected to the database. {"timestamp":"2022-02-18T07:04:07.594Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-18T10:32:55.329Z"}
+info: Connected to the database. {"timestamp":"2022-02-18T10:32:55.380Z"}

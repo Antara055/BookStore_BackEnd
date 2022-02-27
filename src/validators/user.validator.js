@@ -2,10 +2,10 @@ const joi = require("joi");
 
 export const newUserValidator = (req,res,next)=>{
   const data=joi.object({
-     firstName: joi.string().min(3).max(25).trim(true).required(),
-     lastName: joi.string().min(3).max(25).trim(true).required(),
+     fullName: joi.string().min(3).max(25).trim(true).required(),
      email: joi.string().email().trim(true).required(),
      password: joi.string().min(6).trim(true).required(),
+     phone: joi.string().min(10).required(),
      role: joi.string(),
   });
 const vres=data.validate(req.body)

@@ -1,0 +1,99 @@
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T06:14:46.002Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T06:14:46.057Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T06:30:50.854Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T06:30:50.942Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T06:43:29.608Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T06:43:29.653Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T07:02:36.791Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T07:02:36.857Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T07:20:16.929Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T07:20:16.971Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T07:27:21.724Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T07:27:21.818Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T07:30:31.815Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T07:30:31.883Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGJkOWIwZjEwYzJlMTExYzgwZmY0ZSIsImVtYWlsIjoiYW50YXJhQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTY0NTUxNTE1Mn0.IXEzt8SKaL3PK3rhPFW9JSoRpPryYb9Qqxnadi6F9ls {"timestamp":"2022-02-22T07:32:32.758Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGRlYjFlZThiMjM1MTlhNDZlMzFlMyIsImVtYWlsIjoidXNlcjExQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjQ1NTE1MTk4fQ.OGlPGn7q18OABoGdTH4t9kYX9jBUjFQI5CEYQyX6Tvg {"timestamp":"2022-02-22T07:33:18.175Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T07:35:34.663Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T07:35:34.740Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T07:38:19.719Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T07:38:19.775Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T07:49:48.225Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T07:49:48.279Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T07:57:10.620Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T07:57:10.668Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T08:03:59.735Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T08:03:59.800Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T08:06:19.859Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T08:06:19.921Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T08:08:32.988Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T08:08:33.080Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T08:09:19.879Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T08:09:19.964Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T08:25:34.972Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T08:25:35.028Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T08:26:18.254Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T08:26:18.320Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T08:29:11.476Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T08:29:11.516Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T08:34:49.068Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T08:34:49.131Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T08:35:29.722Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T08:35:29.780Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T08:36:50.564Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T08:36:50.628Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T08:43:00.888Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T08:43:00.984Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T08:47:16.979Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T08:47:17.024Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T08:56:45.360Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T08:56:45.425Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T08:59:20.457Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T08:59:20.527Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T09:00:29.952Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T09:00:30.147Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T09:04:28.785Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T09:04:28.865Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T09:04:41.290Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T09:04:41.372Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T09:07:25.131Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T09:07:25.238Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T09:09:27.586Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T09:09:27.654Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Cart is not defined
+    at _callee3$ (E:\CFP_BZ\book_store\src\services\/wishlist.service.js:53:28)
+    at tryCatch (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (E:\CFP_BZ\book_store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\CFP_BZ\book_store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeItems (E:\CFP_BZ\book_store\src\services\/wishlist.service.js:53:25) 
+    url - /api/v1/wishlist 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-02-22T09:11:01.484Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T09:13:10.298Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T09:13:10.359Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T09:16:27.745Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T09:16:27.806Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T09:17:28.655Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T09:17:28.714Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T10:19:42.193Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T10:19:42.258Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMTRiOGJlZGY5MTZkMWU1NGE3ZWNjMCIsImVtYWlsIjoiYW51QGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjQ1NTI1MTgyfQ.A8b_9kscxcm7ce1IgX9zP_xn4lStEEaB_UFtt3lXQf4 {"timestamp":"2022-02-22T10:19:42.820Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMTRiOGJlZGY5MTZkMWU1NGE3ZWNjMCIsImVtYWlsIjoiYW51QGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjQ1NTI1MTgzfQ.lYh2i2Kv7fvDDviy4bG4cePqmwIW2PVmx_diOXEfCX8 {"timestamp":"2022-02-22T10:19:43.002Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2022-02-22T10:21:38.014Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T10:21:38.082Z"}
+info: Login token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMTRiOTMyYzA3ZDQ1MTY4ODYzMTAxMiIsImVtYWlsIjoiYW51QGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjQ1NTI1Mjk4fQ.6dSC189mmkuCmZms5iKcrWbYMkCWL6JtoEYfj8N4Dho {"timestamp":"2022-02-22T10:21:38.553Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T10:21:38.723Z"}

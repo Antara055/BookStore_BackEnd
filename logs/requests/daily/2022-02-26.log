@@ -1,0 +1,24 @@
+info: ::ffff:127.0.0.1 - - [26/Feb/2022:09:43:29 +0000] "POST /api/v1/cart HTTP/1.1" 500 74 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [26/Feb/2022:09:44:54 +0000] "POST /api/v1/cart HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [26/Feb/2022:09:55:21 +0000] "POST /api/v1/cart HTTP/1.1" 201 245 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [26/Feb/2022:09:55:49 +0000] "POST /api/v1/cart HTTP/1.1" 201 245 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [26/Feb/2022:09:58:01 +0000] "POST /api/v1/cart HTTP/1.1" 201 245 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [26/Feb/2022:09:59:16 +0000] "POST /api/v1/cart HTTP/1.1" 500 59 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [26/Feb/2022:10:00:14 +0000] "POST /api/v1/cart HTTP/1.1" 201 245 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [26/Feb/2022:10:00:22 +0000] "POST /api/v1/cart HTTP/1.1" 500 68 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [26/Feb/2022:10:07:56 +0000] "POST /api/v1/cart HTTP/1.1" 201 245 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [26/Feb/2022:10:08:32 +0000] "POST /api/v1/cart HTTP/1.1" 201 245 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [26/Feb/2022:10:10:05 +0000] "POST /api/v1/cart HTTP/1.1" 201 245 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [26/Feb/2022:10:10:25 +0000] "POST /api/v1/cart HTTP/1.1" 201 325 "-" "Thunder Client (https://www.thunderclient.com)"
+
